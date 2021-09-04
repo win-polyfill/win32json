@@ -2768,7 +2768,6 @@
     "Index": 46,
     "Name": "EnumProcessModulesEx",
     "DllImport": "psapi",
-    "PlatformPolyfill": "",
     "Platform": "windowsvista",
     "ReturnType": {
       "Kind": "ApiRef",
@@ -5393,7 +5392,6 @@
     "Index": 97,
     "Name": "GetWsChangesEx",
     "DllImport": "psapi",
-    "PlatformPolyfill": "",
     "Platform": "windowsvista",
     "ReturnType": {
       "Kind": "ApiRef",
@@ -6043,7 +6041,6 @@
     "Index": 109,
     "Name": "InterlockedCompareExchange64",
     "DllImport": "kernel32",
-    "PlatformPolyfill": "",
     "Platform": "windowsvista",
     "ReturnType": {
       "Kind": "Native",
@@ -7350,7 +7347,6 @@
     "Index": 132,
     "Name": "QueryWorkingSetEx",
     "DllImport": "psapi",
-    "PlatformPolyfill": "",
     "Platform": "windowsvista",
     "ReturnType": {
       "Kind": "ApiRef",
