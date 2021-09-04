@@ -4,6 +4,7 @@ import path from "path";
 export interface ApiInformation {
   Index: number;
   Platform?: string;
+  Module: string;
   Name: string;
   DllImport: string;
   ReturnType: TypeInfo;
@@ -178,14 +179,18 @@ async function polyfillAll() {
   }
   for (let f of allFunctions) {
     let platform = normalizePlatform(f.Platform);
+    let DllImport = normalizeDllImport(f.DllImport)
     if (platform !== null && PlatformsToSkip.indexOf(platform) < 0) {
       if (!apiMap.has(f.Name)) {
         maximalApiIndex += 1;
         let newApi: ApiInformation = {
           Index: maximalApiIndex,
+          Module: f.Module,
           Name: f.Name,
+          Platform: platform,
+          DllImport: DllImport
         } as ApiInformation;
-        apiList.push(newApi);
+        // apiList.push(newApi);
       }
     }
   }
@@ -200,7 +205,8 @@ async function polyfillAll() {
     }
     if (f) {
       let platform = normalizePlatform(f.Platform);
-      existApi.DllImport = f.DllImport.toLowerCase();
+      existApi.Module = f.Module
+      existApi.DllImport = normalizeDllImport(f.DllImport)
       if (platform !== null) {
         existApi.Platform = platform;
       }
@@ -216,7 +222,7 @@ async function polyfillAll() {
         existApi.Platform = patchApi.Platform;
       }
       if (patchApi.DllImport) {
-        existApi.DllImport = patchApi.DllImport;
+        existApi.DllImport = normalizeDllImport(patchApi.DllImport);
       }
       if (patchApi.ReturnType) {
         existApi.ReturnType = patchApi.ReturnType;

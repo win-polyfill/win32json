@@ -27,7 +27,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 2,
@@ -57,7 +58,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 3,
@@ -133,7 +135,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.HiDpi"
   },
   {
     "Index": 4,
@@ -179,7 +182,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Storage.FileSystem"
   },
   {
     "Index": 5,
@@ -249,7 +253,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.WindowsAndMessaging"
   },
   {
     "Index": 6,
@@ -278,7 +283,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.TouchInput"
   },
   {
     "Index": 7,
@@ -420,7 +426,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 8,
@@ -500,7 +507,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 9,
@@ -542,7 +550,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "NetworkManagement.IpHelper"
   },
   {
     "Index": 10,
@@ -588,7 +597,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "NetworkManagement.IpHelper"
   },
   {
     "Index": 11,
@@ -647,7 +657,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "NetworkManagement.IpHelper"
   },
   {
     "Index": 12,
@@ -693,7 +704,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "NetworkManagement.IpHelper"
   },
   {
     "Index": 13,
@@ -740,7 +752,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Graphics.Dxgi"
   },
   {
     "Index": 14,
@@ -811,7 +824,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 15,
@@ -882,7 +896,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 16,
@@ -968,7 +983,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Storage.FileSystem"
   },
   {
     "Index": 17,
@@ -1036,7 +1052,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 18,
@@ -1104,7 +1121,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 19,
@@ -1211,7 +1229,8 @@
       }
     ],
     "Platform": "windowsvista",
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Pipes"
   },
   {
     "Index": 20,
@@ -1300,7 +1319,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 21,
@@ -1357,7 +1377,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Storage.FileSystem"
   },
   {
     "Index": 22,
@@ -1414,7 +1435,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Storage.FileSystem"
   },
   {
     "Index": 23,
@@ -1482,7 +1504,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 24,
@@ -1645,7 +1668,8 @@
       }
     ],
     "Platform": "windows6.1",
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Graphics.Direct3D11"
   },
   {
     "Index": 25,
@@ -1705,7 +1729,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Graphics.DirectWrite"
   },
   {
     "Index": 26,
@@ -1735,7 +1760,8 @@
       }
     ],
     "Platform": "windowsvista",
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Diagnostics.Debug"
   },
   {
     "Index": 27,
@@ -1762,7 +1788,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 28,
@@ -1795,7 +1822,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 29,
@@ -1837,7 +1865,8 @@
       }
     ],
     "Platform": "windowsvista",
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Graphics.Direct3D9"
   },
   {
     "Index": 30,
@@ -1968,7 +1997,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Controls"
   },
   {
     "Index": 31,
@@ -2049,7 +2079,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Graphics.Dwm"
   },
   {
     "Index": 32,
@@ -2095,7 +2126,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Graphics.Dwm"
   },
   {
     "Index": 33,
@@ -2121,7 +2153,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Graphics.Dwm"
   },
   {
     "Index": 34,
@@ -2167,7 +2200,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Graphics.Dwm"
   },
   {
     "Index": 35,
@@ -2212,7 +2246,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Graphics.Dwm"
   },
   {
     "Index": 36,
@@ -2278,7 +2313,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Graphics.Dwm"
   },
   {
     "Index": 37,
@@ -2307,7 +2343,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Graphics.Dwm"
   },
   {
     "Index": 38,
@@ -2339,7 +2376,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Graphics.Dwm"
   },
   {
     "Index": 39,
@@ -2408,7 +2446,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Graphics.Dwm"
   },
   {
     "Index": 40,
@@ -2460,7 +2499,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Graphics.Dwm"
   },
   {
     "Index": 41,
@@ -2527,7 +2567,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Graphics.Dwm"
   },
   {
     "Index": 42,
@@ -2557,7 +2598,8 @@
       }
     ],
     "Platform": "windowsvista",
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Diagnostics.Debug"
   },
   {
     "Index": 43,
@@ -2600,7 +2642,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 44,
@@ -2692,7 +2735,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 45,
@@ -2762,7 +2806,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 46,
@@ -2847,7 +2892,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.ProcessStatus"
   },
   {
     "Index": 47,
@@ -2913,7 +2959,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 48,
@@ -3013,7 +3060,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Diagnostics.Etw"
   },
   {
     "Index": 49,
@@ -3025,7 +3073,8 @@
       "Name": "Void"
     },
     "Params": [],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 50,
@@ -3122,7 +3171,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 51,
@@ -3134,7 +3184,8 @@
       "Name": "UInt32"
     },
     "Params": [],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 52,
@@ -3163,7 +3214,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 53,
@@ -3279,7 +3331,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 54,
@@ -3347,7 +3400,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.HiDpi"
   },
   {
     "Index": 55,
@@ -3359,7 +3413,8 @@
       "Name": "UInt32"
     },
     "Params": [],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.HiDpi"
   },
   {
     "Index": 56,
@@ -3385,7 +3440,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.HiDpi"
   },
   {
     "Index": 57,
@@ -3397,7 +3453,8 @@
       "Name": "UInt32"
     },
     "Params": [],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Diagnostics.Debug"
   },
   {
     "Index": 58,
@@ -3466,7 +3523,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Storage.FileSystem"
   },
   {
     "Index": 59,
@@ -3547,7 +3605,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Storage.FileSystem"
   },
   {
     "Index": 60,
@@ -3628,7 +3687,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Storage.FileSystem"
   },
   {
     "Index": 61,
@@ -3681,7 +3741,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Storage.FileSystem"
   },
   {
     "Index": 62,
@@ -3734,7 +3795,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Storage.FileSystem"
   },
   {
     "Index": 63,
@@ -3799,7 +3861,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Storage.FileSystem"
   },
   {
     "Index": 64,
@@ -3864,7 +3927,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Storage.FileSystem"
   },
   {
     "Index": 65,
@@ -3929,7 +3993,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 66,
@@ -3980,7 +4045,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.SystemInformation"
   },
   {
     "Index": 67,
@@ -4044,7 +4110,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.SystemInformation"
   },
   {
     "Index": 68,
@@ -4073,7 +4140,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.SystemInformation"
   },
   {
     "Index": 69,
@@ -4112,7 +4180,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 70,
@@ -4151,7 +4220,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 71,
@@ -4180,7 +4250,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 72,
@@ -4222,7 +4293,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 73,
@@ -4261,7 +4333,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 74,
@@ -4303,7 +4376,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 75,
@@ -4342,7 +4416,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 76,
@@ -4387,7 +4462,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 77,
@@ -4426,7 +4502,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 78,
@@ -4465,7 +4542,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 79,
@@ -4562,7 +4640,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 80,
@@ -4588,7 +4667,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 81,
@@ -4614,7 +4694,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 82,
@@ -4686,7 +4767,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.SystemInformation"
   },
   {
     "Index": 83,
@@ -4725,7 +4807,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 84,
@@ -4758,7 +4841,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.HiDpi"
   },
   {
     "Index": 85,
@@ -4787,7 +4871,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.SystemInformation"
   },
   {
     "Index": 86,
@@ -4893,7 +4978,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Controls"
   },
   {
     "Index": 87,
@@ -4972,7 +5058,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Controls"
   },
   {
     "Index": 88,
@@ -4984,7 +5071,8 @@
       "Name": "UInt32"
     },
     "Params": [],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Diagnostics.Debug"
   },
   {
     "Index": 89,
@@ -5010,7 +5098,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 90,
@@ -5082,7 +5171,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 91,
@@ -5094,7 +5184,8 @@
       "Name": "UInt16"
     },
     "Params": [],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 92,
@@ -5106,7 +5197,8 @@
       "Name": "UInt64"
     },
     "Params": [],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.SystemInformation"
   },
   {
     "Index": 93,
@@ -5207,7 +5299,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 94,
@@ -5275,7 +5368,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.TouchInput"
   },
   {
     "Index": 95,
@@ -5314,7 +5408,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 96,
@@ -5386,7 +5481,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 97,
@@ -5449,7 +5545,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.ProcessStatus"
   },
   {
     "Index": 98,
@@ -5515,7 +5612,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Networking.WinSock"
   },
   {
     "Index": 99,
@@ -5565,7 +5663,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Networking.WinSock"
   },
   {
     "Index": 100,
@@ -5641,7 +5740,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 101,
@@ -5698,7 +5798,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 102,
@@ -5776,7 +5877,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 103,
@@ -5805,7 +5907,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 104,
@@ -5834,7 +5937,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 105,
@@ -5886,7 +5990,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 106,
@@ -5954,7 +6059,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 107,
@@ -5983,7 +6089,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 108,
@@ -6035,7 +6142,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 109,
@@ -6124,7 +6232,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.TouchInput"
   },
   {
     "Index": 111,
@@ -6166,7 +6275,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.SystemInformation"
   },
   {
     "Index": 112,
@@ -6181,7 +6291,8 @@
       "Parents": []
     },
     "Params": [],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.WindowsAndMessaging"
   },
   {
     "Index": 113,
@@ -6226,7 +6337,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 114,
@@ -6282,7 +6394,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 115,
@@ -6342,7 +6455,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 116,
@@ -6479,7 +6593,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 117,
@@ -6536,7 +6651,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.LibraryLoader"
   },
   {
     "Index": 118,
@@ -6593,7 +6709,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.LibraryLoader"
   },
   {
     "Index": 119,
@@ -6630,7 +6747,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 120,
@@ -6726,7 +6844,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Memory"
   },
   {
     "Index": 121,
@@ -6749,7 +6868,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Security.Cryptography.Core"
   },
   {
     "Index": 122,
@@ -6867,7 +6987,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Security.Cryptography.Core"
   },
   {
     "Index": 123,
@@ -6968,7 +7089,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Storage.FileSystem"
   },
   {
     "Index": 124,
@@ -7010,7 +7132,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Power"
   },
   {
     "Index": 125,
@@ -7042,7 +7165,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Power"
   },
   {
     "Index": 126,
@@ -7084,7 +7208,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Power"
   },
   {
     "Index": 127,
@@ -7156,7 +7281,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 128,
@@ -7228,7 +7354,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 129,
@@ -7270,7 +7397,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WindowsProgramming"
   },
   {
     "Index": 130,
@@ -7312,7 +7440,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WindowsProgramming"
   },
   {
     "Index": 131,
@@ -7341,7 +7470,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WindowsProgramming"
   },
   {
     "Index": 132,
@@ -7397,7 +7527,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.ProcessStatus"
   },
   {
     "Index": 133,
@@ -7454,7 +7585,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Diagnostics.Debug"
   },
   {
     "Index": 134,
@@ -7522,7 +7654,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Storage.FileSystem"
   },
   {
     "Index": 135,
@@ -7579,7 +7712,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Registry"
   },
   {
     "Index": 136,
@@ -7636,7 +7770,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Registry"
   },
   {
     "Index": 137,
@@ -7700,7 +7835,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Registry"
   },
   {
     "Index": 138,
@@ -7764,7 +7900,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Registry"
   },
   {
     "Index": 139,
@@ -7823,7 +7960,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Registry"
   },
   {
     "Index": 140,
@@ -7882,7 +8020,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Registry"
   },
   {
     "Index": 141,
@@ -7926,7 +8065,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Registry"
   },
   {
     "Index": 142,
@@ -7970,7 +8110,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Registry"
   },
   {
     "Index": 143,
@@ -8090,7 +8231,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Registry"
   },
   {
     "Index": 144,
@@ -8210,7 +8352,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Registry"
   },
   {
     "Index": 145,
@@ -8308,7 +8451,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Registry"
   },
   {
     "Index": 146,
@@ -8406,7 +8550,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Registry"
   },
   {
     "Index": 147,
@@ -8459,7 +8604,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Power"
   },
   {
     "Index": 148,
@@ -8501,7 +8647,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.TouchInput"
   },
   {
     "Index": 149,
@@ -8531,7 +8678,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 150,
@@ -8561,7 +8709,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 151,
@@ -8616,7 +8765,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Globalization"
   },
   {
     "Index": 152,
@@ -8662,7 +8812,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 153,
@@ -8722,7 +8873,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 154,
@@ -8751,7 +8903,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 155,
@@ -8780,7 +8933,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 156,
@@ -8823,7 +8977,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 157,
@@ -8880,7 +9035,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 158,
@@ -8954,7 +9110,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 159,
@@ -9012,7 +9169,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 160,
@@ -9035,7 +9193,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 161,
@@ -9047,7 +9206,8 @@
       "Name": "Void"
     },
     "Params": [],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 162,
@@ -9076,7 +9236,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 163,
@@ -9172,7 +9333,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Shell"
   },
   {
     "Index": 164,
@@ -9282,7 +9444,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Shell"
   },
   {
     "Index": 165,
@@ -9372,7 +9535,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Shell"
   },
   {
     "Index": 166,
@@ -9434,7 +9598,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Shell"
   },
   {
     "Index": 167,
@@ -9508,7 +9673,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Shell"
   },
   {
     "Index": 168,
@@ -9595,7 +9761,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Shell"
   },
   {
     "Index": 169,
@@ -9688,7 +9855,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Shell"
   },
   {
     "Index": 170,
@@ -9767,7 +9935,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Shell"
   },
   {
     "Index": 171,
@@ -9840,7 +10009,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Shell"
   },
   {
     "Index": 172,
@@ -9914,7 +10084,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Shell"
   },
   {
     "Index": 173,
@@ -9975,7 +10146,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Shell"
   },
   {
     "Index": 174,
@@ -10031,7 +10203,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Shell"
   },
   {
     "Index": 175,
@@ -10099,7 +10272,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Shell"
   },
   {
     "Index": 176,
@@ -10129,7 +10303,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Shell"
   },
   {
     "Index": 177,
@@ -10198,7 +10373,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Storage.FileSystem"
   },
   {
     "Index": 178,
@@ -10213,7 +10389,8 @@
       "Parents": []
     },
     "Params": [],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.WindowsAndMessaging"
   },
   {
     "Index": 179,
@@ -10242,7 +10419,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.HiDpi"
   },
   {
     "Index": 180,
@@ -10271,7 +10449,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.HiDpi"
   },
   {
     "Index": 181,
@@ -10317,7 +10496,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Diagnostics.Debug"
   },
   {
     "Index": 182,
@@ -10380,7 +10560,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 183,
@@ -10449,7 +10630,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Controls"
   },
   {
     "Index": 184,
@@ -10591,7 +10773,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Devices.DeviceAndDriverInstallation"
   },
   {
     "Index": 185,
@@ -10703,7 +10886,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Devices.DeviceAndDriverInstallation"
   },
   {
     "Index": 186,
@@ -10830,7 +11014,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Devices.DeviceAndDriverInstallation"
   },
   {
     "Index": 187,
@@ -10956,7 +11141,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Devices.DeviceAndDriverInstallation"
   },
   {
     "Index": 188,
@@ -11052,7 +11238,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Devices.DeviceAndDriverInstallation"
   },
   {
     "Index": 189,
@@ -11163,7 +11350,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Devices.DeviceAndDriverInstallation"
   },
   {
     "Index": 190,
@@ -11212,7 +11400,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.Shell"
   },
   {
     "Index": 191,
@@ -11272,7 +11461,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 192,
@@ -11342,7 +11532,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 193,
@@ -11397,7 +11588,8 @@
       }
     ],
     "Platform": "windows10.0.19041",
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Diagnostics.Debug"
   },
   {
     "Index": 194,
@@ -11441,7 +11633,8 @@
       }
     ],
     "Platform": "windows10.0.19041",
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Diagnostics.Debug"
   },
   {
     "Index": 195,
@@ -11511,7 +11704,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.HiDpi"
   },
   {
     "Index": 196,
@@ -11544,7 +11738,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 197,
@@ -11577,7 +11772,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 198,
@@ -11606,7 +11802,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Power"
   },
   {
     "Index": 199,
@@ -11635,7 +11832,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.TouchInput"
   },
   {
     "Index": 200,
@@ -11681,7 +11879,8 @@
       }
     ],
     "Platform": "windowsvista",
-    "Architectures": []
+    "Architectures": [],
+    "Module": "UI.WindowsAndMessaging"
   },
   {
     "Index": 201,
@@ -11791,7 +11990,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 202,
@@ -11841,7 +12041,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Networking.WinSock"
   },
   {
     "Index": 203,
@@ -11912,7 +12113,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 204,
@@ -11942,7 +12144,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 205,
@@ -11968,7 +12171,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 206,
@@ -11994,7 +12198,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 207,
@@ -12024,7 +12229,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.Threading"
   },
   {
     "Index": 208,
@@ -12081,7 +12287,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 209,
@@ -12142,7 +12349,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 210,
@@ -12216,7 +12424,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 211,
@@ -12246,7 +12455,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 212,
@@ -12293,7 +12503,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 213,
@@ -12320,7 +12531,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 214,
@@ -12364,7 +12576,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 215,
@@ -12394,7 +12607,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 216,
@@ -12440,7 +12654,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "System.WinRT"
   },
   {
     "Index": 217,
@@ -12472,7 +12687,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Storage.FileSystem"
   },
   {
     "Index": 218,
@@ -12501,7 +12717,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Storage.FileSystem"
   },
   {
     "Index": 219,
@@ -12530,7 +12747,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Storage.FileSystem"
   },
   {
     "Index": 220,
@@ -12596,7 +12814,8 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Networking.WinSock"
   },
   {
     "Index": 221,
@@ -12646,6 +12865,7 @@
         ]
       }
     ],
-    "Architectures": []
+    "Architectures": [],
+    "Module": "Networking.WinSock"
   }
 ]
