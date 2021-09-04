@@ -1229,7 +1229,8 @@
           "Optional"
         ]
       }
-    ]
+    ],
+    "Platform": "windowsvista"
   },
   {
     "Index": 20,
@@ -1667,7 +1668,8 @@
           "Optional"
         ]
       }
-    ]
+    ],
+    "Platform": "windows6.1"
   },
   {
     "Index": 25,
@@ -1757,7 +1759,8 @@
           "Optional"
         ]
       }
-    ]
+    ],
+    "Platform": "windowsvista"
   },
   {
     "Index": 27,
@@ -1861,7 +1864,8 @@
           "Out"
         ]
       }
-    ]
+    ],
+    "Platform": "windowsvista"
   },
   {
     "Index": 30,
@@ -2592,7 +2596,8 @@
           "Optional"
         ]
       }
-    ]
+    ],
+    "Platform": "windowsvista"
   },
   {
     "Index": 43,
@@ -11355,7 +11360,8 @@
           "In"
         ]
       }
-    ]
+    ],
+    "Platform": "windows10.0.19041"
   },
   {
     "Index": 194,
@@ -11399,7 +11405,8 @@
           "Const"
         ]
       }
-    ]
+    ],
+    "Platform": "windows10.0.19041"
   },
   {
     "Index": 195,
@@ -11644,7 +11651,8 @@
           "Const"
         ]
       }
-    ]
+    ],
+    "Platform": "windowsvista"
   },
   {
     "Index": 201,

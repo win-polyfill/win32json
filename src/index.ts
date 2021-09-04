@@ -3,9 +3,7 @@ import path from 'path';
 
 export interface ApiInformation {
     Index: number
-    Platform?: string
-    PlatformPatch?: string
-    PlatformPolyfill: string
+    Platform: string
     Name: string
     DllImport: string
     ReturnType: TypeInfo
@@ -43,9 +41,8 @@ export async function unused1() {
             Index: index,
             Name: api,
             DllImport: '',
-            PlatformPolyfill: '',
-            Platform: '',
-        })
+            Platform: ''
+        } as ApiInformation)
     }
     fs.writeFile(path.join(rootDir, 'win-polyfill.json'), JSON.stringify(aiiSet, null, 2))
 }
@@ -112,6 +109,22 @@ export async function loadWinApiMetadataPlatformSet() {
     console.log(JSON.stringify(list, null, 2))
 }
 
+async function loadApiSet(p: string) {
+    // console.log(platformMap)
+    const apiMap = new Map<string, ApiInformation>()
+    const apiList: ApiInformation[] = await readJson(p)
+    let maximalApiIndex = 0
+    for (let apiItem of apiList) {
+        apiMap.set(apiItem.Name, apiItem)
+        maximalApiIndex = Math.max(maximalApiIndex, apiItem.Index)
+    }
+    return {
+        apiMap,
+        apiList,
+        maximalApiIndex
+    }
+}
+
 async function polyfillAll() {
     const platformList = await readJson(path.join(rootDir, 'platform-set.json'))
     const platformMap = new Map<string, VersionInfo>()
@@ -119,14 +132,9 @@ async function polyfillAll() {
         platformMap.set(p.Platform, parseVersion(p.Version))
     }
     // console.log(platformMap)
-    const apiMap = new Map<string, ApiInformation>()
-    const apiList: ApiInformation[] = await readJson(path.join(rootDir, 'win-polyfill.json'))
-    let maximalApiIndex = 0
-    for (let apiItem of apiList) {
-        apiMap.set(apiItem.Name, apiItem)
-        maximalApiIndex = Math.max(maximalApiIndex, apiItem.Index)
-    }
+    const { apiMap, apiList, maximalApiIndex } = await loadApiSet(path.join(rootDir, 'win-polyfill.json'))
     console.log(maximalApiIndex)
+    const patchApiSet = await loadApiSet(path.join(rootDir, 'win-polyfill-guess.json'))
 
     const apiRoot = path.join(rootDir, 'api')
     const files = await fs.readdir(apiRoot)
@@ -138,13 +146,18 @@ async function polyfillAll() {
             let platform = normalizePlatform(f.Platform)
             const existApi = apiMap.get(f.Name)
             if (existApi) {
-                if (existApi.DllImport === '' || !existApi.DllImport) {
+                if (!existApi.DllImport) {
                     existApi.DllImport = f.DllImport.toLowerCase()
                 }
-                if (platform) {
+                if (platform !== null) {
                     existApi.Platform = platform
-                } else {
-                    existApi.Platform = undefined
+                }
+                const patchApi = patchApiSet.apiMap.get(f.Name)
+                if (patchApi !== undefined) {
+                    existApi.Platform = patchApi.Platform;
+                }
+                if (existApi.Platform === undefined || existApi.Platform === '') {
+                    console.log(existApi.Name)
                 }
                 existApi.ReturnType = f.ReturnType
                 existApi.Params = f.Params
