@@ -1,0 +1,27 @@
+{
+  "name": "win32json",
+  "version": "1.0.0",
+  "description": "A JSON representation of win32metadata.",
+  "main" : "dist/index.js",
+  "types" : "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlersoft/win32json.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marlersoft/win32json/issues"
+  },
+  "homepage": "https://github.com/marlersoft/win32json#readme",
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "ts-node": "^10.2.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.2"
+  }
+}

@@ -1,0 +1,1556 @@
+[
+  {
+    "Index": 1,
+    "Name": "AcquireSRWLockExclusive",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 2,
+    "Name": "AcquireSRWLockShared",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 3,
+    "Name": "AdjustWindowRectExForDpi",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 4,
+    "Name": "CancelIoEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 5,
+    "Name": "ChangeWindowMessageFilterEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 6,
+    "Name": "CloseTouchInputHandle",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 7,
+    "Name": "CompareStringEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 8,
+    "Name": "CompareStringOrdinal",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 9,
+    "Name": "ConvertInterfaceIndexToLuid",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 10,
+    "Name": "ConvertInterfaceLuidToIndex",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 11,
+    "Name": "ConvertInterfaceLuidToNameW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 12,
+    "Name": "ConvertInterfaceNameToLuidW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 13,
+    "Name": "CreateDXGIFactory1",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 14,
+    "Name": "CreateEventExA",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 15,
+    "Name": "CreateEventExW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 16,
+    "Name": "CreateFile2",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 17,
+    "Name": "CreateMutexExA",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 18,
+    "Name": "CreateMutexExW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 19,
+    "Name": "CreateNamedPipeW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 20,
+    "Name": "CreateSemaphoreExW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 21,
+    "Name": "CreateSymbolicLinkA",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 22,
+    "Name": "CreateSymbolicLinkW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 23,
+    "Name": "CreateWaitableTimerExW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 24,
+    "Name": "D3D11CreateDevice",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 25,
+    "Name": "DWriteCreateFactory",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 26,
+    "Name": "DecodePointer",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 27,
+    "Name": "DeleteProcThreadAttributeList",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 28,
+    "Name": "DeleteSynchronizationBarrier",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 29,
+    "Name": "Direct3DCreate9Ex",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 30,
+    "Name": "DrawThemeTextEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 31,
+    "Name": "DwmDefWindowProc",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 32,
+    "Name": "DwmEnableBlurBehindWindow",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 33,
+    "Name": "DwmEnableComposition",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 34,
+    "Name": "DwmExtendFrameIntoClientArea",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 35,
+    "Name": "DwmGetColorizationColor",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 36,
+    "Name": "DwmGetWindowAttribute",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 37,
+    "Name": "DwmInvalidateIconicBitmaps",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 38,
+    "Name": "DwmIsCompositionEnabled",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 39,
+    "Name": "DwmSetIconicLivePreviewBitmap",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 40,
+    "Name": "DwmSetIconicThumbnail",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 41,
+    "Name": "DwmSetWindowAttribute",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 42,
+    "Name": "EncodePointer",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 43,
+    "Name": "EnterSynchronizationBarrier",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 44,
+    "Name": "EnumCalendarInfoExEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 45,
+    "Name": "EnumDateFormatsExEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 46,
+    "Name": "EnumProcessModulesEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 47,
+    "Name": "EnumSystemLocalesEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 48,
+    "Name": "EventWriteTransfer",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 49,
+    "Name": "FlushProcessWriteBuffers",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 50,
+    "Name": "GetCurrencyFormatEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 51,
+    "Name": "GetCurrentProcessorNumber",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 52,
+    "Name": "GetCurrentProcessorNumberEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 53,
+    "Name": "GetDateFormatEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 54,
+    "Name": "GetDpiForMonitor",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 55,
+    "Name": "GetDpiForSystem",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 56,
+    "Name": "GetDpiForWindow",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 57,
+    "Name": "GetErrorMode",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 58,
+    "Name": "GetFileInformationByHandleEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 59,
+    "Name": "GetFileVersionInfoExA",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 60,
+    "Name": "GetFileVersionInfoExW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 61,
+    "Name": "GetFileVersionInfoSizeExA",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 62,
+    "Name": "GetFileVersionInfoSizeExW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 63,
+    "Name": "GetFinalPathNameByHandleA",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 64,
+    "Name": "GetFinalPathNameByHandleW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 65,
+    "Name": "GetLocaleInfoEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 66,
+    "Name": "GetLogicalProcessorInformation",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 67,
+    "Name": "GetLogicalProcessorInformationEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 68,
+    "Name": "GetNativeSystemInfo",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 69,
+    "Name": "GetNumaAvailableMemoryNode",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 70,
+    "Name": "GetNumaAvailableMemoryNodeEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 71,
+    "Name": "GetNumaHighestNodeNumber",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 72,
+    "Name": "GetNumaNodeNumberFromHandle",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 73,
+    "Name": "GetNumaNodeProcessorMask",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 74,
+    "Name": "GetNumaNodeProcessorMaskEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 75,
+    "Name": "GetNumaProcessorNode",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 76,
+    "Name": "GetNumaProcessorNodeEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 77,
+    "Name": "GetNumaProximityNode",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 78,
+    "Name": "GetNumaProximityNodeEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 79,
+    "Name": "GetNumberFormatEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 80,
+    "Name": "GetProcessId",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 81,
+    "Name": "GetProcessIdOfThread",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 82,
+    "Name": "GetProductInfo",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 83,
+    "Name": "GetSystemDefaultLocaleName",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 84,
+    "Name": "GetSystemMetricsForDpi",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 85,
+    "Name": "GetSystemTimePreciseAsFileTime",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 86,
+    "Name": "GetThemePartSize",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 87,
+    "Name": "GetThemeTransitionDuration",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 88,
+    "Name": "GetThreadErrorMode",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 89,
+    "Name": "GetThreadId",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 90,
+    "Name": "GetThreadPreferredUILanguages",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 91,
+    "Name": "GetThreadUILanguage",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 92,
+    "Name": "GetTickCount64",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 93,
+    "Name": "GetTimeFormatEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 94,
+    "Name": "GetTouchInputInfo",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 95,
+    "Name": "GetUserDefaultLocaleName",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 96,
+    "Name": "GetUserPreferredUILanguages",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 97,
+    "Name": "GetWsChangesEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 98,
+    "Name": "InetNtopW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 99,
+    "Name": "InetPtonW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 100,
+    "Name": "InitOnceBeginInitialize",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 101,
+    "Name": "InitOnceComplete",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 102,
+    "Name": "InitOnceExecuteOnce",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 103,
+    "Name": "InitOnceInitialize",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 104,
+    "Name": "InitializeConditionVariable",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 105,
+    "Name": "InitializeCriticalSectionEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 106,
+    "Name": "InitializeProcThreadAttributeList",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 107,
+    "Name": "InitializeSRWLock",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 108,
+    "Name": "InitializeSynchronizationBarrier",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 109,
+    "Name": "InterlockedCompareExchange64",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 110,
+    "Name": "IsTouchWindow",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 111,
+    "Name": "IsWow64GuestMachineSupported",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 112,
+    "Name": "IsWow64Message",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 113,
+    "Name": "IsWow64Process",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 114,
+    "Name": "IsWow64Process2",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 115,
+    "Name": "LCIDToLocaleName",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 116,
+    "Name": "LCMapStringEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 117,
+    "Name": "LoadLibraryExA",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 118,
+    "Name": "LoadLibraryExW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 119,
+    "Name": "LocaleNameToLCID",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 120,
+    "Name": "MapViewOfFileExNuma",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 121,
+    "Name": "NCryptFreeObject",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 122,
+    "Name": "NCryptSignHash",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 123,
+    "Name": "OpenFileById",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 124,
+    "Name": "PowerClearRequest",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 125,
+    "Name": "PowerCreateRequest",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 126,
+    "Name": "PowerSetRequest",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 127,
+    "Name": "QueryFullProcessImageNameA",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 128,
+    "Name": "QueryFullProcessImageNameW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 129,
+    "Name": "QueryProcessCycleTime",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 130,
+    "Name": "QueryThreadCycleTime",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 131,
+    "Name": "QueryUnbiasedInterruptTime",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 132,
+    "Name": "QueryWorkingSetEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 133,
+    "Name": "RaiseFailFastException",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 134,
+    "Name": "ReOpenFile",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 135,
+    "Name": "RegCopyTreeA",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 136,
+    "Name": "RegCopyTreeW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 137,
+    "Name": "RegDeleteKeyExA",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 138,
+    "Name": "RegDeleteKeyExW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 139,
+    "Name": "RegDeleteKeyValueA",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 140,
+    "Name": "RegDeleteKeyValueW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 141,
+    "Name": "RegDeleteTreeA",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 142,
+    "Name": "RegDeleteTreeW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 143,
+    "Name": "RegGetValueA",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 144,
+    "Name": "RegGetValueW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 145,
+    "Name": "RegSetKeyValueA",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 146,
+    "Name": "RegSetKeyValueW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 147,
+    "Name": "RegisterPowerSettingNotification",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 148,
+    "Name": "RegisterTouchWindow",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 149,
+    "Name": "ReleaseSRWLockExclusive",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 150,
+    "Name": "ReleaseSRWLockShared",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 151,
+    "Name": "ResolveLocaleName",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 152,
+    "Name": "RoActivateInstance",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 153,
+    "Name": "RoGetActivationFactory",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 154,
+    "Name": "RoGetApartmentIdentifier",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 155,
+    "Name": "RoInitialize",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 156,
+    "Name": "RoOriginateError",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 157,
+    "Name": "RoOriginateErrorW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 158,
+    "Name": "RoRegisterActivationFactories",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 159,
+    "Name": "RoRegisterForApartmentShutdown",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 160,
+    "Name": "RoRevokeActivationFactories",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 161,
+    "Name": "RoUninitialize",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 162,
+    "Name": "RoUnregisterForApartmentShutdown",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 163,
+    "Name": "SHBindToFolderIDListParent",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 164,
+    "Name": "SHBindToFolderIDListParentEx",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 165,
+    "Name": "SHBindToObject",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 166,
+    "Name": "SHCreateItemFromIDList",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 167,
+    "Name": "SHCreateItemFromParsingName",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 168,
+    "Name": "SHCreateItemFromRelativeName",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 169,
+    "Name": "SHCreateItemWithParent",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 170,
+    "Name": "SHCreateShellItem",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 171,
+    "Name": "SHGetKnownFolderIDList",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 172,
+    "Name": "SHGetKnownFolderPath",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 173,
+    "Name": "SHGetNameFromIDList",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 174,
+    "Name": "SHGetStockIconInfo",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 175,
+    "Name": "SHSetKnownFolderPath",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 176,
+    "Name": "SetCurrentProcessExplicitAppUserModelID",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 177,
+    "Name": "SetFileInformationByHandle",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 178,
+    "Name": "SetProcessDPIAware",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 179,
+    "Name": "SetProcessDpiAwareness",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 180,
+    "Name": "SetProcessDpiAwarenessContext",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 181,
+    "Name": "SetThreadErrorMode",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 182,
+    "Name": "SetThreadGroupAffinity",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 183,
+    "Name": "SetWindowThemeAttribute",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 184,
+    "Name": "SetupDiGetClassPropertyExW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 185,
+    "Name": "SetupDiGetClassPropertyW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 186,
+    "Name": "SetupDiGetDevicePropertyW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 187,
+    "Name": "SetupDiSetClassPropertyExW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 188,
+    "Name": "SetupDiSetClassPropertyW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 189,
+    "Name": "SetupDiSetDevicePropertyW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 190,
+    "Name": "Shell_NotifyIconGetRect",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 191,
+    "Name": "SleepConditionVariableCS",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 192,
+    "Name": "SleepConditionVariableSRW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 193,
+    "Name": "SymGetSearchPathW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 194,
+    "Name": "SymSetSearchPathW",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 195,
+    "Name": "SystemParametersInfoForDpi",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 196,
+    "Name": "TryAcquireSRWLockExclusive",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 197,
+    "Name": "TryAcquireSRWLockShared",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 198,
+    "Name": "UnregisterPowerSettingNotification",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 199,
+    "Name": "UnregisterTouchWindow",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 200,
+    "Name": "UpdateLayeredWindowIndirect",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 201,
+    "Name": "UpdateProcThreadAttribute",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 202,
+    "Name": "WSAPoll",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 203,
+    "Name": "WaitOnAddress",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 204,
+    "Name": "WakeAllConditionVariable",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 205,
+    "Name": "WakeByAddressAll",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 206,
+    "Name": "WakeByAddressSingle",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 207,
+    "Name": "WakeConditionVariable",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 208,
+    "Name": "WindowsCompareStringOrdinal",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 209,
+    "Name": "WindowsCreateString",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 210,
+    "Name": "WindowsCreateStringReference",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 211,
+    "Name": "WindowsDeleteString",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 212,
+    "Name": "WindowsDuplicateString",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 213,
+    "Name": "WindowsGetStringLen",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 214,
+    "Name": "WindowsGetStringRawBuffer",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 215,
+    "Name": "WindowsIsStringEmpty",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 216,
+    "Name": "WindowsStringHasEmbeddedNull",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 217,
+    "Name": "Wow64DisableWow64FsRedirection",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 218,
+    "Name": "Wow64EnableWow64FsRedirection",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 219,
+    "Name": "Wow64RevertWow64FsRedirection",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 220,
+    "Name": "inet_ntop",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 221,
+    "Name": "inet_pton",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  },
+  {
+    "Index": 222,
+    "Name": "",
+    "DllImport": "",
+    "PlatformPolyfill": "",
+    "Platform": ""
+  }
+]
