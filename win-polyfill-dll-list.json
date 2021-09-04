@@ -1,0 +1,1210 @@
+[
+  {
+    "Name": "aclui",
+    "Count": 1
+  },
+  {
+    "Name": "activeds",
+    "Count": 18
+  },
+  {
+    "Name": "advapi32",
+    "Count": 116
+  },
+  {
+    "Name": "advpack",
+    "Count": 2
+  },
+  {
+    "Name": "amsi",
+    "Count": 6
+  },
+  {
+    "Name": "api-ms-win-appmodel-runtime-l1-1-1",
+    "Count": 3
+  },
+  {
+    "Name": "api-ms-win-appmodel-runtime-l1-1-3",
+    "Count": 5
+  },
+  {
+    "Name": "api-ms-win-core-apiquery-l2-1-0",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-core-backgroundtask-l1-1-0",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-core-comm-l1-1-1",
+    "Count": 1
+  },
+  {
+    "Name": "api-ms-win-core-comm-l1-1-2",
+    "Count": 1
+  },
+  {
+    "Name": "api-ms-win-core-errorhandling-l1-1-3",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-core-featurestaging-l1-1-0",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-core-featurestaging-l1-1-1",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-core-file-fromapp-l1-1-0",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-core-handle-l1-1-0",
+    "Count": 1
+  },
+  {
+    "Name": "api-ms-win-core-memory-l1-1-3",
+    "Count": 4
+  },
+  {
+    "Name": "api-ms-win-core-memory-l1-1-4",
+    "Count": 1
+  },
+  {
+    "Name": "api-ms-win-core-memory-l1-1-5",
+    "Count": 2
+  },
+  {
+    "Name": "api-ms-win-core-memory-l1-1-6",
+    "Count": 4
+  },
+  {
+    "Name": "api-ms-win-core-memory-l1-1-7",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-core-path-l1-1-0",
+    "Count": 22
+  },
+  {
+    "Name": "api-ms-win-core-psm-appnotify-l1-1-0",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-core-psm-appnotify-l1-1-1",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-core-realtime-l1-1-1",
+    "Count": 3
+  },
+  {
+    "Name": "api-ms-win-core-realtime-l1-1-2",
+    "Count": 3
+  },
+  {
+    "Name": "api-ms-win-core-slapi-l1-1-0",
+    "Count": 1
+  },
+  {
+    "Name": "api-ms-win-core-state-helpers-l1-1-0",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-core-sysinfo-l1-2-0",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-core-sysinfo-l1-2-3",
+    "Count": 1
+  },
+  {
+    "Name": "api-ms-win-core-sysinfo-l1-2-4",
+    "Count": 2
+  },
+  {
+    "Name": "api-ms-win-core-util-l1-1-1",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-core-winrt-error-l1-1-0",
+    "Count": 9
+  },
+  {
+    "Name": "api-ms-win-core-winrt-error-l1-1-1",
+    "Count": 5
+  },
+  {
+    "Name": "api-ms-win-core-winrt-l1-1-0",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-core-winrt-registration-l1-1-0",
+    "Count": 1
+  },
+  {
+    "Name": "api-ms-win-core-winrt-robuffer-l1-1-0",
+    "Count": 1
+  },
+  {
+    "Name": "api-ms-win-core-winrt-roparameterizediid-l1-1-0",
+    "Count": 3
+  },
+  {
+    "Name": "api-ms-win-core-winrt-string-l1-1-0",
+    "Count": 18
+  },
+  {
+    "Name": "api-ms-win-core-winrt-string-l1-1-1",
+    "Count": 1
+  },
+  {
+    "Name": "api-ms-win-core-wow64-l1-1-1",
+    "Count": 2
+  },
+  {
+    "Name": "api-ms-win-devices-query-l1-1-0",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-devices-query-l1-1-1",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-dx-d3dkmt-l1-1-0",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-gaming-deviceinformation-l1-1-0",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-gaming-expandedresources-l1-1-0",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-gaming-tcui-l1-1-0",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-gaming-tcui-l1-1-1",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-gaming-tcui-l1-1-2",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-gaming-tcui-l1-1-3",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-gaming-tcui-l1-1-4",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-mm-misc-l1-1-1",
+    "Count": 1
+  },
+  {
+    "Name": "api-ms-win-net-isolation-l1-1-0",
+    "Count": 8
+  },
+  {
+    "Name": "api-ms-win-security-base-l1-2-2",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-security-isolatedcontainer-l1-1-0",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-security-isolatedcontainer-l1-1-1",
+    "Count": 0
+  },
+  {
+    "Name": "api-ms-win-service-core-l1-1-3",
+    "Count": 1
+  },
+  {
+    "Name": "api-ms-win-service-core-l1-1-4",
+    "Count": 1
+  },
+  {
+    "Name": "api-ms-win-shcore-scaling-l1-1-0",
+    "Count": 3
+  },
+  {
+    "Name": "api-ms-win-shcore-scaling-l1-1-1",
+    "Count": 4
+  },
+  {
+    "Name": "api-ms-win-shcore-scaling-l1-1-2",
+    "Count": 1
+  },
+  {
+    "Name": "api-ms-win-shcore-stream-winrt-l1-1-0",
+    "Count": 3
+  },
+  {
+    "Name": "api-ms-win-wsl-api-l1-1-0",
+    "Count": 0
+  },
+  {
+    "Name": "apphelp",
+    "Count": 0
+  },
+  {
+    "Name": "authz",
+    "Count": 10
+  },
+  {
+    "Name": "avicap32",
+    "Count": 0
+  },
+  {
+    "Name": "avifil32",
+    "Count": 0
+  },
+  {
+    "Name": "bcrypt",
+    "Count": 53
+  },
+  {
+    "Name": "bluetoothapis",
+    "Count": 28
+  },
+  {
+    "Name": "bthprops",
+    "Count": 5
+  },
+  {
+    "Name": "cabinet",
+    "Count": 12
+  },
+  {
+    "Name": "certadm",
+    "Count": 0
+  },
+  {
+    "Name": "certpoleng",
+    "Count": 6
+  },
+  {
+    "Name": "cfgmgr32",
+    "Count": 37
+  },
+  {
+    "Name": "chakra",
+    "Count": 0
+  },
+  {
+    "Name": "cldapi",
+    "Count": 33
+  },
+  {
+    "Name": "clfsw32",
+    "Count": 52
+  },
+  {
+    "Name": "clusapi",
+    "Count": 201
+  },
+  {
+    "Name": "comctl32",
+    "Count": 110
+  },
+  {
+    "Name": "comdlg32",
+    "Count": 0
+  },
+  {
+    "Name": "compstui",
+    "Count": 0
+  },
+  {
+    "Name": "comsvcs",
+    "Count": 0
+  },
+  {
+    "Name": "coremessaging",
+    "Count": 0
+  },
+  {
+    "Name": "credui",
+    "Count": 9
+  },
+  {
+    "Name": "crypt32",
+    "Count": 19
+  },
+  {
+    "Name": "cryptnet",
+    "Count": 0
+  },
+  {
+    "Name": "cryptui",
+    "Count": 1
+  },
+  {
+    "Name": "cryptxml",
+    "Count": 17
+  },
+  {
+    "Name": "cscapi",
+    "Count": 4
+  },
+  {
+    "Name": "d2d1",
+    "Count": 9
+  },
+  {
+    "Name": "d3d10",
+    "Count": 0
+  },
+  {
+    "Name": "d3d10_1",
+    "Count": 0
+  },
+  {
+    "Name": "d3d11",
+    "Count": 0
+  },
+  {
+    "Name": "d3d12",
+    "Count": 0
+  },
+  {
+    "Name": "d3d9",
+    "Count": 0
+  },
+  {
+    "Name": "d3dcompiler_47",
+    "Count": 1
+  },
+  {
+    "Name": "d3dcsx",
+    "Count": 0
+  },
+  {
+    "Name": "davclnt",
+    "Count": 5
+  },
+  {
+    "Name": "dbgeng",
+    "Count": 0
+  },
+  {
+    "Name": "dbghelp",
+    "Count": 0
+  },
+  {
+    "Name": "dbgmodel",
+    "Count": 0
+  },
+  {
+    "Name": "dciman32",
+    "Count": 0
+  },
+  {
+    "Name": "dcomp",
+    "Count": 3
+  },
+  {
+    "Name": "ddraw",
+    "Count": 0
+  },
+  {
+    "Name": "deviceaccess",
+    "Count": 0
+  },
+  {
+    "Name": "dflayout",
+    "Count": 0
+  },
+  {
+    "Name": "dhcpcsvc",
+    "Count": 0
+  },
+  {
+    "Name": "dhcpcsvc6",
+    "Count": 6
+  },
+  {
+    "Name": "dhcpsapi",
+    "Count": 150
+  },
+  {
+    "Name": "diagnosticdataquery",
+    "Count": 35
+  },
+  {
+    "Name": "dinput8",
+    "Count": 0
+  },
+  {
+    "Name": "directml",
+    "Count": 1
+  },
+  {
+    "Name": "dnsapi",
+    "Count": 16
+  },
+  {
+    "Name": "drt",
+    "Count": 16
+  },
+  {
+    "Name": "drtprov",
+    "Count": 9
+  },
+  {
+    "Name": "drttransport",
+    "Count": 2
+  },
+  {
+    "Name": "dsound",
+    "Count": 0
+  },
+  {
+    "Name": "dsparse",
+    "Count": 15
+  },
+  {
+    "Name": "dsprop",
+    "Count": 7
+  },
+  {
+    "Name": "dssec",
+    "Count": 3
+  },
+  {
+    "Name": "dsuiext",
+    "Count": 4
+  },
+  {
+    "Name": "dwmapi",
+    "Count": 20
+  },
+  {
+    "Name": "dwrite",
+    "Count": 0
+  },
+  {
+    "Name": "dxcompiler",
+    "Count": 0
+  },
+  {
+    "Name": "dxgi",
+    "Count": 3
+  },
+  {
+    "Name": "dxva2",
+    "Count": 38
+  },
+  {
+    "Name": "eappcfg",
+    "Count": 14
+  },
+  {
+    "Name": "eappprxy",
+    "Count": 17
+  },
+  {
+    "Name": "efswrt",
+    "Count": 1
+  },
+  {
+    "Name": "elscore",
+    "Count": 5
+  },
+  {
+    "Name": "esent",
+    "Count": 0
+  },
+  {
+    "Name": "evr",
+    "Count": 2
+  },
+  {
+    "Name": "faultrep",
+    "Count": 1
+  },
+  {
+    "Name": "fhsvcctl",
+    "Count": 7
+  },
+  {
+    "Name": "fltlib",
+    "Count": 0
+  },
+  {
+    "Name": "fontsub",
+    "Count": 0
+  },
+  {
+    "Name": "fwpuclnt",
+    "Count": 181
+  },
+  {
+    "Name": "fxsutility",
+    "Count": 2
+  },
+  {
+    "Name": "gdi32",
+    "Count": 1
+  },
+  {
+    "Name": "gpedit",
+    "Count": 6
+  },
+  {
+    "Name": "hid",
+    "Count": 0
+  },
+  {
+    "Name": "hlink",
+    "Count": 0
+  },
+  {
+    "Name": "hrtfapo",
+    "Count": 0
+  },
+  {
+    "Name": "httpapi",
+    "Count": 36
+  },
+  {
+    "Name": "icm32",
+    "Count": 0
+  },
+  {
+    "Name": "icmui",
+    "Count": 0
+  },
+  {
+    "Name": "icu",
+    "Count": 0
+  },
+  {
+    "Name": "imm32",
+    "Count": 1
+  },
+  {
+    "Name": "inkobjcore",
+    "Count": 0
+  },
+  {
+    "Name": "iphlpapi",
+    "Count": 87
+  },
+  {
+    "Name": "iscsidsc",
+    "Count": 77
+  },
+  {
+    "Name": "kernel32",
+    "Count": 327
+  },
+  {
+    "Name": "keycredmgr",
+    "Count": 0
+  },
+  {
+    "Name": "ksuser",
+    "Count": 0
+  },
+  {
+    "Name": "ktmw32",
+    "Count": 39
+  },
+  {
+    "Name": "loadperf",
+    "Count": 0
+  },
+  {
+    "Name": "magnification",
+    "Count": 19
+  },
+  {
+    "Name": "mapi32",
+    "Count": 0
+  },
+  {
+    "Name": "mdmregistration",
+    "Count": 11
+  },
+  {
+    "Name": "mf",
+    "Count": 61
+  },
+  {
+    "Name": "mfcore",
+    "Count": 0
+  },
+  {
+    "Name": "mfplat",
+    "Count": 144
+  },
+  {
+    "Name": "mfplay",
+    "Count": 1
+  },
+  {
+    "Name": "mfreadwrite",
+    "Count": 5
+  },
+  {
+    "Name": "mfsensorgroup",
+    "Count": 5
+  },
+  {
+    "Name": "mfsrcsnk",
+    "Count": 2
+  },
+  {
+    "Name": "mgmtapi",
+    "Count": 0
+  },
+  {
+    "Name": "mi",
+    "Count": 1
+  },
+  {
+    "Name": "mmdevapi",
+    "Count": 1
+  },
+  {
+    "Name": "mpr",
+    "Count": 0
+  },
+  {
+    "Name": "mprapi",
+    "Count": 14
+  },
+  {
+    "Name": "mrmsupport",
+    "Count": 4
+  },
+  {
+    "Name": "msacm32",
+    "Count": 0
+  },
+  {
+    "Name": "msajapi",
+    "Count": 6
+  },
+  {
+    "Name": "mscms",
+    "Count": 0
+  },
+  {
+    "Name": "msctfmonitor",
+    "Count": 2
+  },
+  {
+    "Name": "msdmo",
+    "Count": 0
+  },
+  {
+    "Name": "msdrm",
+    "Count": 4
+  },
+  {
+    "Name": "msi",
+    "Count": 264
+  },
+  {
+    "Name": "msimg32",
+    "Count": 0
+  },
+  {
+    "Name": "msports",
+    "Count": 0
+  },
+  {
+    "Name": "mstask",
+    "Count": 2
+  },
+  {
+    "Name": "msvfw32",
+    "Count": 0
+  },
+  {
+    "Name": "mswsock",
+    "Count": 3
+  },
+  {
+    "Name": "mtxdm",
+    "Count": 0
+  },
+  {
+    "Name": "ncrypt",
+    "Count": 36
+  },
+  {
+    "Name": "ndfapi",
+    "Count": 16
+  },
+  {
+    "Name": "netapi32",
+    "Count": 64
+  },
+  {
+    "Name": "netsh",
+    "Count": 0
+  },
+  {
+    "Name": "newdev",
+    "Count": 7
+  },
+  {
+    "Name": "ninput",
+    "Count": 23
+  },
+  {
+    "Name": "normaliz",
+    "Count": 2
+  },
+  {
+    "Name": "ntdll",
+    "Count": 20
+  },
+  {
+    "Name": "ntdsapi",
+    "Count": 81
+  },
+  {
+    "Name": "ntlanman",
+    "Count": 2
+  },
+  {
+    "Name": "ole32",
+    "Count": 6
+  },
+  {
+    "Name": "oleacc",
+    "Count": 2
+  },
+  {
+    "Name": "oleaut32",
+    "Count": 0
+  },
+  {
+    "Name": "oledlg",
+    "Count": 0
+  },
+  {
+    "Name": "ondemandconnroutehelper",
+    "Count": 5
+  },
+  {
+    "Name": "opengl32",
+    "Count": 0
+  },
+  {
+    "Name": "p2p",
+    "Count": 42
+  },
+  {
+    "Name": "p2pgraph",
+    "Count": 0
+  },
+  {
+    "Name": "pdh",
+    "Count": 5
+  },
+  {
+    "Name": "peerdist",
+    "Count": 28
+  },
+  {
+    "Name": "powrprof",
+    "Count": 61
+  },
+  {
+    "Name": "prntvpt",
+    "Count": 2
+  },
+  {
+    "Name": "projectedfslib",
+    "Count": 19
+  },
+  {
+    "Name": "propsys",
+    "Count": 41
+  },
+  {
+    "Name": "quartz",
+    "Count": 0
+  },
+  {
+    "Name": "query",
+    "Count": 0
+  },
+  {
+    "Name": "qwave",
+    "Count": 11
+  },
+  {
+    "Name": "rasapi32",
+    "Count": 2
+  },
+  {
+    "Name": "rasdlg",
+    "Count": 0
+  },
+  {
+    "Name": "resutils",
+    "Count": 106
+  },
+  {
+    "Name": "rometadata",
+    "Count": 1
+  },
+  {
+    "Name": "rpcns4",
+    "Count": 0
+  },
+  {
+    "Name": "rpcrt4",
+    "Count": 17
+  },
+  {
+    "Name": "rstrtmgr",
+    "Count": 11
+  },
+  {
+    "Name": "rtm",
+    "Count": 0
+  },
+  {
+    "Name": "scarddlg",
+    "Count": 0
+  },
+  {
+    "Name": "schannel",
+    "Count": 1
+  },
+  {
+    "Name": "secur32",
+    "Count": 29
+  },
+  {
+    "Name": "sensapi",
+    "Count": 0
+  },
+  {
+    "Name": "setupapi",
+    "Count": 16
+  },
+  {
+    "Name": "sfc",
+    "Count": 1
+  },
+  {
+    "Name": "shdocvw",
+    "Count": 0
+  },
+  {
+    "Name": "shell32",
+    "Count": 39
+  },
+  {
+    "Name": "shlwapi",
+    "Count": 20
+  },
+  {
+    "Name": "slc",
+    "Count": 32
+  },
+  {
+    "Name": "slcext",
+    "Count": 4
+  },
+  {
+    "Name": "slwga",
+    "Count": 1
+  },
+  {
+    "Name": "snmpapi",
+    "Count": 0
+  },
+  {
+    "Name": "spoolss",
+    "Count": 0
+  },
+  {
+    "Name": "srpapi",
+    "Count": 9
+  },
+  {
+    "Name": "sspicli",
+    "Count": 2
+  },
+  {
+    "Name": "t2embed",
+    "Count": 0
+  },
+  {
+    "Name": "tapi32",
+    "Count": 0
+  },
+  {
+    "Name": "tbs",
+    "Count": 10
+  },
+  {
+    "Name": "tdh",
+    "Count": 24
+  },
+  {
+    "Name": "tokenbinding",
+    "Count": 8
+  },
+  {
+    "Name": "traffic",
+    "Count": 0
+  },
+  {
+    "Name": "txfw32",
+    "Count": 3
+  },
+  {
+    "Name": "ualapi",
+    "Count": 4
+  },
+  {
+    "Name": "uiautomationcore",
+    "Count": 17
+  },
+  {
+    "Name": "urlmon",
+    "Count": 0
+  },
+  {
+    "Name": "user32",
+    "Count": 123
+  },
+  {
+    "Name": "userenv",
+    "Count": 25
+  },
+  {
+    "Name": "usp10",
+    "Count": 9
+  },
+  {
+    "Name": "uxtheme",
+    "Count": 70
+  },
+  {
+    "Name": "verifier",
+    "Count": 0
+  },
+  {
+    "Name": "version",
+    "Count": 0
+  },
+  {
+    "Name": "vertdll",
+    "Count": 0
+  },
+  {
+    "Name": "virtdisk",
+    "Count": 26
+  },
+  {
+    "Name": "vssapi",
+    "Count": 1
+  },
+  {
+    "Name": "wcmapi",
+    "Count": 5
+  },
+  {
+    "Name": "wdsbp",
+    "Count": 7
+  },
+  {
+    "Name": "wdsclientapi",
+    "Count": 33
+  },
+  {
+    "Name": "wdsmc",
+    "Count": 6
+  },
+  {
+    "Name": "wdspxe",
+    "Count": 30
+  },
+  {
+    "Name": "wdstptc",
+    "Count": 12
+  },
+  {
+    "Name": "webauthn",
+    "Count": 0
+  },
+  {
+    "Name": "webservices",
+    "Count": 193
+  },
+  {
+    "Name": "websocket",
+    "Count": 13
+  },
+  {
+    "Name": "wecapi",
+    "Count": 15
+  },
+  {
+    "Name": "wer",
+    "Count": 15
+  },
+  {
+    "Name": "wevtapi",
+    "Count": 35
+  },
+  {
+    "Name": "winbio",
+    "Count": 52
+  },
+  {
+    "Name": "windows.ai.machinelearning",
+    "Count": 0
+  },
+  {
+    "Name": "windows.data.pdf",
+    "Count": 0
+  },
+  {
+    "Name": "windows.networking",
+    "Count": 1
+  },
+  {
+    "Name": "windows.ui.xaml",
+    "Count": 1
+  },
+  {
+    "Name": "windowscodecs",
+    "Count": 1
+  },
+  {
+    "Name": "winfax",
+    "Count": 0
+  },
+  {
+    "Name": "winhttp",
+    "Count": 11
+  },
+  {
+    "Name": "winhvemulation",
+    "Count": 0
+  },
+  {
+    "Name": "winhvplatform",
+    "Count": 0
+  },
+  {
+    "Name": "wininet",
+    "Count": 0
+  },
+  {
+    "Name": "winml",
+    "Count": 0
+  },
+  {
+    "Name": "winmm",
+    "Count": 0
+  },
+  {
+    "Name": "winscard",
+    "Count": 14
+  },
+  {
+    "Name": "winspool",
+    "Count": 3
+  },
+  {
+    "Name": "wintrust",
+    "Count": 5
+  },
+  {
+    "Name": "winusb",
+    "Count": 11
+  },
+  {
+    "Name": "wlanapi",
+    "Count": 55
+  },
+  {
+    "Name": "wlanui",
+    "Count": 1
+  },
+  {
+    "Name": "wldap32",
+    "Count": 240
+  },
+  {
+    "Name": "wldp",
+    "Count": 0
+  },
+  {
+    "Name": "wmvcore",
+    "Count": 0
+  },
+  {
+    "Name": "wnvapi",
+    "Count": 2
+  },
+  {
+    "Name": "wofutil",
+    "Count": 0
+  },
+  {
+    "Name": "ws2_32",
+    "Count": 120
+  },
+  {
+    "Name": "wscapi",
+    "Count": 3
+  },
+  {
+    "Name": "wsclient",
+    "Count": 0
+  },
+  {
+    "Name": "wsdapi",
+    "Count": 32
+  },
+  {
+    "Name": "wsmsvc",
+    "Count": 31
+  },
+  {
+    "Name": "wsnmp32",
+    "Count": 0
+  },
+  {
+    "Name": "wtsapi32",
+    "Count": 63
+  },
+  {
+    "Name": "xaudio2_8",
+    "Count": 0
+  },
+  {
+    "Name": "xinputuap",
+    "Count": 0
+  },
+  {
+    "Name": "xmllite",
+    "Count": 0
+  },
+  {
+    "Name": "xpsprint",
+    "Count": 2
+  }
+]

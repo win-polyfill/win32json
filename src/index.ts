@@ -142,10 +142,11 @@ async function loadApiSet(p: string) {
   };
 }
 
-const PlatformsToSkip = ["windows5.0", "windows2000", "windowsserver2000"];
 
 async function polyfillAll() {
-  const platformList = await readJson(path.join(rootDir, "platform-set.json"));
+  const platformList:any[] = await readJson(path.join(rootDir, "platform-set.json"));
+  const PlatformsToSkip = platformList.slice(0, 5).map((x)=>x.Platform)
+  console.log(PlatformsToSkip)
   const platformMap = new Map<string, VersionInfo>();
   for (let p of platformList) {
     platformMap.set(p.Platform, parseVersion(p.Version));
@@ -177,9 +178,13 @@ async function polyfillAll() {
       }
     }
   }
+  const DllImportSet = new Map<string, number>()
   for (let f of allFunctions) {
     let platform = normalizePlatform(f.Platform);
     let DllImport = normalizeDllImport(f.DllImport)
+    if (!DllImportSet.has(DllImport)) {
+      DllImportSet.set(DllImport, 0)
+    }
     if (platform !== null && PlatformsToSkip.indexOf(platform) < 0) {
       if (!apiMap.has(f.Name)) {
         maximalApiIndex += 1;
@@ -190,6 +195,8 @@ async function polyfillAll() {
           Platform: platform,
           DllImport: DllImport
         } as ApiInformation;
+        const existCount = DllImportSet.get(DllImport) ?? 0
+        DllImportSet.set(DllImport, existCount + 1)
         // apiList.push(newApi);
       }
     }
@@ -239,6 +246,18 @@ async function polyfillAll() {
     path.join(rootDir, "win-polyfill.json"),
     JSON.stringify(apiList, null, 2)
   );
+  const dllList = []
+  const dllListSorted = Array.from(DllImportSet.entries()).sort()
+  for (let [Name, Count] of dllListSorted) {
+    dllList.push({
+      Name,
+      Count
+    })
+    if (Count > 0) {
+      // console.log(`${Name} ${Count}`)
+    }
+  }
+  fs.writeFile(path.join(rootDir,'win-polyfill-dll-list.json'), JSON.stringify(dllList, null, 2))
   console.log("done");
 }
 
