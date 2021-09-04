@@ -1,0 +1,90 @@
+[
+  {
+    "Platform": "windows10.0.10240",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windows6.1",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windows6.0.6000",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windows8.0",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windows8.1",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windows5.1.2600",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windowsvista",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windows10.0.16299",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windows10.0.17134",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windows5.0",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windowsserver2003",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windows2000",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windows10.0.15063",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windows10.0.14393",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windows10.0.19041",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windowsserver2008",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windowsserver2016",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windowsserver2012",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windowsserver2000",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windows10.0.17763",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windows8",
+    "Version": "0.0.0"
+  },
+  {
+    "Platform": "windows10.0.10586",
+    "Version": "0.0.0"
+  }
+]
