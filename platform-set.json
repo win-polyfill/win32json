@@ -12,6 +12,14 @@
     "Version": "5.0.2195"
   },
   {
+    "Platform": "windows5.1.2600",
+    "Version": "5.1.2600"
+  },
+  {
+    "Platform": "windowsserver2003",
+    "Version": "5.2.3790"
+  },
+  {
     "Platform": "windows10.0.10240",
     "Version": "0.0.0"
   },
@@ -32,10 +40,6 @@
     "Version": "0.0.0"
   },
   {
-    "Platform": "windows5.1.2600",
-    "Version": "0.0.0"
-  },
-  {
     "Platform": "windowsvista",
     "Version": "0.0.0"
   },
@@ -45,10 +49,6 @@
   },
   {
     "Platform": "windows10.0.17134",
-    "Version": "0.0.0"
-  },
-  {
-    "Platform": "windowsserver2003",
     "Version": "0.0.0"
   },
   {
