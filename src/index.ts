@@ -181,7 +181,7 @@ async function polyfillAll() {
             }
             existApi.ReturnType = f.ReturnType
             existApi.Params = f.Params
-           // existApi.Architectures = f.Architectures
+           existApi.Architectures = f.Architectures
         }
         if (patchApi !== undefined) {
             if (patchApi.Platform) {
