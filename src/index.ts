@@ -1,12 +1,33 @@
 import fs from 'fs/promises'
 import path from 'path';
 
-interface ApiInformation {
+export interface ApiInformation {
     Index: number
-    Platform: string,
-    PlatformPolyfill: string,
-    Name: string,
-    DllImport: string,
+    Platform?: string
+    PlatformPatch?: string
+    PlatformPolyfill: string
+    Name: string
+    DllImport: string
+    ReturnType: TypeInfo
+    Params: TypeInfo[]
+}
+export interface TypeInfo {
+    Kind: string
+    Name: string
+    TargetKind: string
+    Api: string
+    Parents: any []
+}
+export interface FunctionInformation {
+    Name: string
+    SetLastError: boolean
+    DllImport: string
+    ReturnType: TypeInfo
+    ReturnAttrs: any[]
+    Architectures: any[]
+    Platform: string | null
+    Attrs: any[]
+    Params: TypeInfo[]
 }
 const rootDir = path.join(__dirname, '..')
 
@@ -27,6 +48,21 @@ export async function unused1() {
         })
     }
     fs.writeFile(path.join(rootDir, 'win-polyfill.json'), JSON.stringify(aiiSet, null, 2))
+}
+
+interface VersionInfo {
+    major: number
+    minor: number
+    patch: number
+}
+
+function parseVersion(version: string): VersionInfo {
+    const v = version.split('.').map(x => parseInt(x))
+    return {
+        major: v[0],
+        minor: v[1],
+        patch: v[2]
+    }
 }
 
 async function readJson(f: string) {
@@ -50,7 +86,7 @@ function normalizePlatform(platform: string | null) {
     return platform
 }
 
-async function loadWinApiMetadata() {
+export async function loadWinApiMetadataPlatformSet() {
     const apiRoot = path.join(rootDir, 'api')
     const files = await fs.readdir(apiRoot)
     const platformSet = new Set()
@@ -76,10 +112,50 @@ async function loadWinApiMetadata() {
     console.log(JSON.stringify(list, null, 2))
 }
 
+async function polyfillAll() {
+    const platformList = await readJson(path.join(rootDir, 'platform-set.json'))
+    const platformMap = new Map<string, VersionInfo>()
+    for (let p of platformList) {
+        platformMap.set(p.Platform, parseVersion(p.Version))
+    }
+    // console.log(platformMap)
+    const apiMap = new Map<string, ApiInformation>()
+    const apiList: ApiInformation[] = await readJson(path.join(rootDir, 'win-polyfill.json'))
+    let maximalApiIndex = 0
+    for (let apiItem of apiList) {
+        apiMap.set(apiItem.Name, apiItem)
+        maximalApiIndex = Math.max(maximalApiIndex, apiItem.Index)
+    }
+    console.log(maximalApiIndex)
+
+    const apiRoot = path.join(rootDir, 'api')
+    const files = await fs.readdir(apiRoot)
+    for (let f of files) {
+        const apiFile = path.join(apiRoot, f)
+        // console.log(apiFile)
+        const info = await readJson(apiFile)
+        for (let f of info.Functions as FunctionInformation[]) {
+            let platform = normalizePlatform(f.Platform)
+            const existApi = apiMap.get(f.Name)
+            if (existApi) {
+                if (existApi.DllImport === '' || !existApi.DllImport) {
+                    existApi.DllImport = f.DllImport.toLowerCase()
+                }
+                if (platform) {
+                    existApi.Platform = platform
+                } else {
+                    existApi.Platform = undefined
+                }
+                existApi.ReturnType = f.ReturnType
+                existApi.Params = f.Params
+            }
+        }
+    }
+    fs.writeFile(path.join(rootDir, 'win-polyfill.json'), JSON.stringify(apiList, null, 2))
+}
+
 async function start() {
-    const apiList = await readJson(path.join(rootDir, 'win-polyfill.json'))
-    console.log(apiList)
-    await loadWinApiMetadata();
+    await polyfillAll();
 }
 
 start()
