@@ -9,6 +9,7 @@ export interface ApiInformation {
     ReturnType: TypeInfo
     Params: ParamInfo[]
     Architectures: string[]
+    // for patch only
     ForwardName?: string
 }
 export interface TypeInfo {
@@ -141,7 +142,7 @@ async function polyfillAll() {
     // console.log(platformMap)
     const { apiList, maximalApiIndex } = await loadApiSet(path.join(rootDir, 'win-polyfill.json'))
     console.log(maximalApiIndex)
-    const patchApiSet = await loadApiSet(path.join(rootDir, 'win-polyfill-guess.json'))
+    const patchApiSet = await loadApiSet(path.join(rootDir, 'win-polyfill-patch.json'))
 
     const apiRoot = path.join(rootDir, 'api')
     const files = await fs.readdir(apiRoot)
@@ -154,9 +155,6 @@ async function polyfillAll() {
         for (let f of info.Functions as FunctionInfo[]) {
             allFunctions.push(f)
             allFunctionsMap.set(f.Name, f)
-            if (f.Architectures.length > 0) {
-                console.log(f.Architectures)
-            }
         }
     }
     for (let existApi of apiList) {
@@ -189,6 +187,15 @@ async function polyfillAll() {
             }
             if (patchApi.DllImport) {
                 existApi.DllImport = patchApi.DllImport;
+            }
+            if (patchApi.ReturnType) {
+                existApi.ReturnType = patchApi.ReturnType;
+            }
+            if (patchApi.Params) {
+                existApi.Params = patchApi.Params;
+            }
+            if (patchApi.Architectures) {
+                existApi.Architectures = patchApi.Architectures;
             }
         }
     }

@@ -6044,7 +6044,47 @@
     "Name": "InterlockedCompareExchange64",
     "DllImport": "kernel32",
     "PlatformPolyfill": "",
-    "Platform": "windowsvista"
+    "Platform": "windowsvista",
+    "ReturnType": {
+      "Kind": "Native",
+      "Name": "Int64"
+    },
+    "Params": [
+      {
+        "Name": "Destination",
+        "Type": {
+          "Kind": "PointerTo",
+          "Child": {
+            "Kind": "Native",
+            "Name": "Int64"
+          }
+        },
+        "Attrs": []
+      },
+      {
+        "Name": "ExChange",
+        "Type": {
+          "Kind": "Native",
+          "Name": "Int64"
+        },
+        "Attrs": [
+          "In"
+        ]
+      },
+      {
+        "Name": "Comperand",
+        "Type": {
+          "Kind": "Native",
+          "Name": "Int64"
+        },
+        "Attrs": [
+          "In"
+        ]
+      }
+    ],
+    "Architectures": [
+      "X86"
+    ]
   },
   {
     "Index": 110,
