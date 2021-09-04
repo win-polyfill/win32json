@@ -36,6 +36,10 @@
     "Version": "6.1.7600"
   },
   {
+    "Platform": "windows8",
+    "Version": "6.2.9200"
+  },
+  {
     "Platform": "windows8.0",
     "Version": "6.2.9200"
   },
@@ -44,11 +48,11 @@
     "Version": "6.2.9200"
   },
   {
-    "Platform": "windows10.0.10240",
-    "Version": "0.0.0"
+    "Platform": "windows8.1",
+    "Version": "6.2.9600"
   },
   {
-    "Platform": "windows8.1",
+    "Platform": "windows10.0.10240",
     "Version": "0.0.0"
   },
   {
@@ -77,10 +81,6 @@
   },
   {
     "Platform": "windows10.0.17763",
-    "Version": "0.0.0"
-  },
-  {
-    "Platform": "windows8",
     "Version": "0.0.0"
   },
   {
