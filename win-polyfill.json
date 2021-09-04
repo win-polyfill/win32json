@@ -4,7 +4,6 @@
     "Name": "AcquireSRWLockExclusive",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -34,7 +33,6 @@
     "Name": "AcquireSRWLockShared",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -64,7 +62,6 @@
     "Name": "AdjustWindowRectExForDpi",
     "DllImport": "user32",
     "Platform": "windows10.0.14393",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -140,7 +137,6 @@
     "Name": "CancelIoEx",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -186,7 +182,6 @@
     "Name": "ChangeWindowMessageFilterEx",
     "DllImport": "user32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -256,7 +251,6 @@
     "Name": "CloseTouchInputHandle",
     "DllImport": "user32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -285,7 +279,6 @@
     "Name": "CompareStringEx",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Int32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Int32"
@@ -427,7 +420,6 @@
     "Name": "CompareStringOrdinal",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Int32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Int32"
@@ -507,7 +499,6 @@
     "Name": "ConvertInterfaceIndexToLuid",
     "DllImport": "iphlpapi",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "NTSTATUS",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "NTSTATUS",
@@ -549,7 +540,6 @@
     "Name": "ConvertInterfaceLuidToIndex",
     "DllImport": "iphlpapi",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "NTSTATUS",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "NTSTATUS",
@@ -595,7 +585,6 @@
     "Name": "ConvertInterfaceLuidToNameW",
     "DllImport": "iphlpapi",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "NTSTATUS",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "NTSTATUS",
@@ -654,7 +643,6 @@
     "Name": "ConvertInterfaceNameToLuidW",
     "DllImport": "iphlpapi",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "NTSTATUS",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "NTSTATUS",
@@ -700,7 +688,6 @@
     "Name": "CreateDXGIFactory1",
     "DllImport": "dxgi",
     "Platform": "windows6.1",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -747,7 +734,6 @@
     "Name": "CreateEventExA",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HANDLE",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HANDLE",
@@ -818,7 +804,6 @@
     "Name": "CreateEventExW",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HANDLE",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HANDLE",
@@ -889,7 +874,6 @@
     "Name": "CreateFile2",
     "DllImport": "kernel32",
     "Platform": "windows8.0",
-    "ReturnTypeName": "HANDLE",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HANDLE",
@@ -975,7 +959,6 @@
     "Name": "CreateMutexExA",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HANDLE",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HANDLE",
@@ -1043,7 +1026,6 @@
     "Name": "CreateMutexExW",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HANDLE",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HANDLE",
@@ -1110,7 +1092,6 @@
     "Index": 19,
     "Name": "CreateNamedPipeW",
     "DllImport": "kernel32",
-    "ReturnTypeName": "HANDLE",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HANDLE",
@@ -1218,7 +1199,6 @@
     "Name": "CreateSemaphoreExW",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HANDLE",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HANDLE",
@@ -1307,7 +1287,6 @@
     "Name": "CreateSymbolicLinkA",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOLEAN",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOLEAN",
@@ -1364,7 +1343,6 @@
     "Name": "CreateSymbolicLinkW",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOLEAN",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOLEAN",
@@ -1421,7 +1399,6 @@
     "Name": "CreateWaitableTimerExW",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HANDLE",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HANDLE",
@@ -1488,7 +1465,6 @@
     "Index": 24,
     "Name": "D3D11CreateDevice",
     "DllImport": "d3d11",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -1652,7 +1628,6 @@
     "Name": "DWriteCreateFactory",
     "DllImport": "dwrite",
     "Platform": "windows6.1",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -1741,7 +1716,6 @@
     "Name": "DeleteProcThreadAttributeList",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -1768,7 +1742,6 @@
     "Name": "DeleteSynchronizationBarrier",
     "DllImport": "kernel32",
     "Platform": "windows8.0",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -1800,7 +1773,6 @@
     "Index": 29,
     "Name": "Direct3DCreate9Ex",
     "DllImport": "d3d9",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -1843,7 +1815,6 @@
     "Name": "DrawThemeTextEx",
     "DllImport": "uxtheme",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -1974,7 +1945,6 @@
     "Name": "DwmDefWindowProc",
     "DllImport": "dwmapi",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -2055,7 +2025,6 @@
     "Name": "DwmEnableBlurBehindWindow",
     "DllImport": "dwmapi",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -2101,7 +2070,6 @@
     "Name": "DwmEnableComposition",
     "DllImport": "dwmapi",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -2127,7 +2095,6 @@
     "Name": "DwmExtendFrameIntoClientArea",
     "DllImport": "dwmapi",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -2173,7 +2140,6 @@
     "Name": "DwmGetColorizationColor",
     "DllImport": "dwmapi",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -2218,7 +2184,6 @@
     "Name": "DwmGetWindowAttribute",
     "DllImport": "dwmapi",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -2284,7 +2249,6 @@
     "Name": "DwmInvalidateIconicBitmaps",
     "DllImport": "dwmapi",
     "Platform": "windows6.1",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -2313,7 +2277,6 @@
     "Name": "DwmIsCompositionEnabled",
     "DllImport": "dwmapi",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -2345,7 +2308,6 @@
     "Name": "DwmSetIconicLivePreviewBitmap",
     "DllImport": "dwmapi",
     "Platform": "windows6.1",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -2414,7 +2376,6 @@
     "Name": "DwmSetIconicThumbnail",
     "DllImport": "dwmapi",
     "Platform": "windows6.1",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -2466,7 +2427,6 @@
     "Name": "DwmSetWindowAttribute",
     "DllImport": "dwmapi",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -2562,7 +2522,6 @@
     "Name": "EnterSynchronizationBarrier",
     "DllImport": "kernel32",
     "Platform": "windows8.0",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -2605,7 +2564,6 @@
     "Name": "EnumCalendarInfoExEx",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -2697,7 +2655,6 @@
     "Name": "EnumDateFormatsExEx",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -2774,7 +2731,6 @@
     "Name": "EnumSystemLocalesEx",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -2840,7 +2796,6 @@
     "Name": "EventWriteTransfer",
     "DllImport": "advapi32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "UInt32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "UInt32"
@@ -2940,7 +2895,6 @@
     "Name": "FlushProcessWriteBuffers",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -2952,7 +2906,6 @@
     "Name": "GetCurrencyFormatEx",
     "DllImport": "kernel32",
     "Platform": "windows5.0",
-    "ReturnTypeName": "Int32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Int32"
@@ -3049,7 +3002,6 @@
     "Name": "GetCurrentProcessorNumber",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "UInt32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "UInt32"
@@ -3061,7 +3013,6 @@
     "Name": "GetCurrentProcessorNumberEx",
     "DllImport": "kernel32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -3090,7 +3041,6 @@
     "Name": "GetDateFormatEx",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Int32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Int32"
@@ -3206,7 +3156,6 @@
     "Name": "GetDpiForMonitor",
     "DllImport": "api-ms-win-shcore-scaling-l1-1-1",
     "Platform": "windows8.1",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -3274,7 +3223,6 @@
     "Name": "GetDpiForSystem",
     "DllImport": "user32",
     "Platform": "windows10.0.14393",
-    "ReturnTypeName": "UInt32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "UInt32"
@@ -3286,7 +3234,6 @@
     "Name": "GetDpiForWindow",
     "DllImport": "user32",
     "Platform": "windows10.0.14393",
-    "ReturnTypeName": "UInt32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "UInt32"
@@ -3312,7 +3259,6 @@
     "Name": "GetErrorMode",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "UInt32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "UInt32"
@@ -3324,7 +3270,6 @@
     "Name": "GetFileInformationByHandleEx",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -3393,7 +3338,6 @@
     "Name": "GetFileVersionInfoExA",
     "DllImport": "version",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -3474,7 +3418,6 @@
     "Name": "GetFileVersionInfoExW",
     "DllImport": "version",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -3555,7 +3498,6 @@
     "Name": "GetFileVersionInfoSizeExA",
     "DllImport": "version",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "UInt32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "UInt32"
@@ -3608,7 +3550,6 @@
     "Name": "GetFileVersionInfoSizeExW",
     "DllImport": "version",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "UInt32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "UInt32"
@@ -3661,7 +3602,6 @@
     "Name": "GetFinalPathNameByHandleA",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "UInt32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "UInt32"
@@ -3726,7 +3666,6 @@
     "Name": "GetFinalPathNameByHandleW",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "UInt32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "UInt32"
@@ -3791,7 +3730,6 @@
     "Name": "GetLocaleInfoEx",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Int32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Int32"
@@ -3856,7 +3794,6 @@
     "Name": "GetLogicalProcessorInformation",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -3907,7 +3844,6 @@
     "Name": "GetLogicalProcessorInformationEx",
     "DllImport": "kernel32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -3971,7 +3907,6 @@
     "Name": "GetNativeSystemInfo",
     "DllImport": "kernel32",
     "Platform": "windows5.1.2600",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -4000,7 +3935,6 @@
     "Name": "GetNumaAvailableMemoryNode",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -4039,7 +3973,6 @@
     "Name": "GetNumaAvailableMemoryNodeEx",
     "DllImport": "kernel32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -4078,7 +4011,6 @@
     "Name": "GetNumaHighestNodeNumber",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -4107,7 +4039,6 @@
     "Name": "GetNumaNodeNumberFromHandle",
     "DllImport": "kernel32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -4149,7 +4080,6 @@
     "Name": "GetNumaNodeProcessorMask",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -4188,7 +4118,6 @@
     "Name": "GetNumaNodeProcessorMaskEx",
     "DllImport": "kernel32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -4230,7 +4159,6 @@
     "Name": "GetNumaProcessorNode",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -4269,7 +4197,6 @@
     "Name": "GetNumaProcessorNodeEx",
     "DllImport": "kernel32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -4314,7 +4241,6 @@
     "Name": "GetNumaProximityNode",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -4353,7 +4279,6 @@
     "Name": "GetNumaProximityNodeEx",
     "DllImport": "kernel32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -4392,7 +4317,6 @@
     "Name": "GetNumberFormatEx",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Int32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Int32"
@@ -4489,7 +4413,6 @@
     "Name": "GetProcessId",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "UInt32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "UInt32"
@@ -4515,7 +4438,6 @@
     "Name": "GetProcessIdOfThread",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "UInt32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "UInt32"
@@ -4541,7 +4463,6 @@
     "Name": "GetProductInfo",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -4613,7 +4534,6 @@
     "Name": "GetSystemDefaultLocaleName",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Int32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Int32"
@@ -4652,7 +4572,6 @@
     "Name": "GetSystemMetricsForDpi",
     "DllImport": "user32",
     "Platform": "windows10.0.14393",
-    "ReturnTypeName": "Int32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Int32"
@@ -4685,7 +4604,6 @@
     "Name": "GetSystemTimePreciseAsFileTime",
     "DllImport": "kernel32",
     "Platform": "windows8.0",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -4714,7 +4632,6 @@
     "Name": "GetThemePartSize",
     "DllImport": "uxtheme",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -4820,7 +4737,6 @@
     "Name": "GetThemeTransitionDuration",
     "DllImport": "uxtheme",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -4899,7 +4815,6 @@
     "Name": "GetThreadErrorMode",
     "DllImport": "kernel32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "UInt32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "UInt32"
@@ -4911,7 +4826,6 @@
     "Name": "GetThreadId",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "UInt32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "UInt32"
@@ -4937,7 +4851,6 @@
     "Name": "GetThreadPreferredUILanguages",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -5009,7 +4922,6 @@
     "Name": "GetThreadUILanguage",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "UInt16",
     "ReturnType": {
       "Kind": "Native",
       "Name": "UInt16"
@@ -5021,7 +4933,6 @@
     "Name": "GetTickCount64",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "UInt64",
     "ReturnType": {
       "Kind": "Native",
       "Name": "UInt64"
@@ -5033,7 +4944,6 @@
     "Name": "GetTimeFormatEx",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Int32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Int32"
@@ -5134,7 +5044,6 @@
     "Name": "GetTouchInputInfo",
     "DllImport": "user32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -5202,7 +5111,6 @@
     "Name": "GetUserDefaultLocaleName",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Int32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Int32"
@@ -5241,7 +5149,6 @@
     "Name": "GetUserPreferredUILanguages",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -5320,7 +5227,6 @@
     "Name": "InetNtopW",
     "DllImport": "ws2_32",
     "Platform": "windows8.1",
-    "ReturnTypeName": "PWSTR",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "PWSTR",
@@ -5386,7 +5292,6 @@
     "Name": "InetPtonW",
     "DllImport": "ws2_32",
     "Platform": "windows8.1",
-    "ReturnTypeName": "Int32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Int32"
@@ -5436,7 +5341,6 @@
     "Name": "InitOnceBeginInitialize",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -5512,7 +5416,6 @@
     "Name": "InitOnceComplete",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -5569,7 +5472,6 @@
     "Name": "InitOnceExecuteOnce",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -5647,7 +5549,6 @@
     "Name": "InitOnceInitialize",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -5676,7 +5577,6 @@
     "Name": "InitializeConditionVariable",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -5705,7 +5605,6 @@
     "Name": "InitializeCriticalSectionEx",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -5757,7 +5656,6 @@
     "Name": "InitializeProcThreadAttributeList",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -5825,7 +5723,6 @@
     "Name": "InitializeSRWLock",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -5854,7 +5751,6 @@
     "Name": "InitializeSynchronizationBarrier",
     "DllImport": "kernel32",
     "Platform": "windows8.0",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -5913,7 +5809,6 @@
     "Name": "IsTouchWindow",
     "DllImport": "user32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -5956,7 +5851,6 @@
     "Name": "IsWow64GuestMachineSupported",
     "DllImport": "kernel32",
     "Platform": "windows10.0.16299",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -5998,7 +5892,6 @@
     "Name": "IsWow64Message",
     "DllImport": "user32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -6013,7 +5906,6 @@
     "Name": "IsWow64Process",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -6058,7 +5950,6 @@
     "Name": "IsWow64Process2",
     "DllImport": "kernel32",
     "Platform": "windows10.0.10586",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -6114,7 +6005,6 @@
     "Name": "LCIDToLocaleName",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Int32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Int32"
@@ -6174,7 +6064,6 @@
     "Name": "LCMapStringEx",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Int32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Int32"
@@ -6311,7 +6200,6 @@
     "Name": "LoadLibraryExA",
     "DllImport": "kernel32",
     "Platform": "windows5.1.2600",
-    "ReturnTypeName": "HINSTANCE",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HINSTANCE",
@@ -6368,7 +6256,6 @@
     "Name": "LoadLibraryExW",
     "DllImport": "kernel32",
     "Platform": "windows5.1.2600",
-    "ReturnTypeName": "HINSTANCE",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HINSTANCE",
@@ -6425,7 +6312,6 @@
     "Name": "LocaleNameToLCID",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "UInt32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "UInt32"
@@ -6557,7 +6443,6 @@
     "Name": "NCryptFreeObject",
     "DllImport": "ncrypt",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Int32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Int32"
@@ -6580,7 +6465,6 @@
     "Name": "NCryptSignHash",
     "DllImport": "ncrypt",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Int32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Int32"
@@ -6698,7 +6582,6 @@
     "Name": "OpenFileById",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HANDLE",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HANDLE",
@@ -6799,7 +6682,6 @@
     "Name": "PowerClearRequest",
     "DllImport": "kernel32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -6841,7 +6723,6 @@
     "Name": "PowerCreateRequest",
     "DllImport": "kernel32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "HANDLE",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HANDLE",
@@ -6873,7 +6754,6 @@
     "Name": "PowerSetRequest",
     "DllImport": "kernel32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -6915,7 +6795,6 @@
     "Name": "QueryFullProcessImageNameA",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -6987,7 +6866,6 @@
     "Name": "QueryFullProcessImageNameW",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -7059,7 +6937,6 @@
     "Name": "QueryProcessCycleTime",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -7101,7 +6978,6 @@
     "Name": "QueryThreadCycleTime",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -7143,7 +7019,6 @@
     "Name": "QueryUnbiasedInterruptTime",
     "DllImport": "kernel32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -7179,7 +7054,6 @@
     "Name": "RaiseFailFastException",
     "DllImport": "kernel32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -7236,7 +7110,6 @@
     "Name": "ReOpenFile",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HANDLE",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HANDLE",
@@ -7304,7 +7177,6 @@
     "Name": "RegCopyTreeA",
     "DllImport": "advapi32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "LSTATUS",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "LSTATUS",
@@ -7361,7 +7233,6 @@
     "Name": "RegCopyTreeW",
     "DllImport": "advapi32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "LSTATUS",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "LSTATUS",
@@ -7418,7 +7289,6 @@
     "Name": "RegDeleteKeyExA",
     "DllImport": "advapi32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "LSTATUS",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "LSTATUS",
@@ -7482,7 +7352,6 @@
     "Name": "RegDeleteKeyExW",
     "DllImport": "advapi32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "LSTATUS",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "LSTATUS",
@@ -7546,7 +7415,6 @@
     "Name": "RegDeleteKeyValueA",
     "DllImport": "advapi32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "LSTATUS",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "LSTATUS",
@@ -7605,7 +7473,6 @@
     "Name": "RegDeleteKeyValueW",
     "DllImport": "advapi32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "LSTATUS",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "LSTATUS",
@@ -7664,7 +7531,6 @@
     "Name": "RegDeleteTreeA",
     "DllImport": "advapi32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "LSTATUS",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "LSTATUS",
@@ -7708,7 +7574,6 @@
     "Name": "RegDeleteTreeW",
     "DllImport": "advapi32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "LSTATUS",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "LSTATUS",
@@ -7752,7 +7617,6 @@
     "Name": "RegGetValueA",
     "DllImport": "advapi32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "LSTATUS",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "LSTATUS",
@@ -7872,7 +7736,6 @@
     "Name": "RegGetValueW",
     "DllImport": "advapi32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "LSTATUS",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "LSTATUS",
@@ -7992,7 +7855,6 @@
     "Name": "RegSetKeyValueA",
     "DllImport": "advapi32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "LSTATUS",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "LSTATUS",
@@ -8090,7 +7952,6 @@
     "Name": "RegSetKeyValueW",
     "DllImport": "advapi32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "LSTATUS",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "LSTATUS",
@@ -8188,7 +8049,6 @@
     "Name": "RegisterPowerSettingNotification",
     "DllImport": "user32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HPOWERNOTIFY",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HPOWERNOTIFY",
@@ -8241,7 +8101,6 @@
     "Name": "RegisterTouchWindow",
     "DllImport": "user32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -8283,7 +8142,6 @@
     "Name": "ReleaseSRWLockExclusive",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -8313,7 +8171,6 @@
     "Name": "ReleaseSRWLockShared",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -8343,7 +8200,6 @@
     "Name": "ResolveLocaleName",
     "DllImport": "kernel32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "Int32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Int32"
@@ -8398,7 +8254,6 @@
     "Name": "RoActivateInstance",
     "DllImport": "api-ms-win-core-winrt-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -8444,7 +8299,6 @@
     "Name": "RoGetActivationFactory",
     "DllImport": "api-ms-win-core-winrt-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -8504,7 +8358,6 @@
     "Name": "RoGetApartmentIdentifier",
     "DllImport": "api-ms-win-core-winrt-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -8533,7 +8386,6 @@
     "Name": "RoInitialize",
     "DllImport": "api-ms-win-core-winrt-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -8562,7 +8414,6 @@
     "Name": "RoOriginateError",
     "DllImport": "api-ms-win-core-winrt-error-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -8605,7 +8456,6 @@
     "Name": "RoOriginateErrorW",
     "DllImport": "api-ms-win-core-winrt-error-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -8662,7 +8512,6 @@
     "Name": "RoRegisterActivationFactories",
     "DllImport": "api-ms-win-core-winrt-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -8736,7 +8585,6 @@
     "Name": "RoRegisterForApartmentShutdown",
     "DllImport": "api-ms-win-core-winrt-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -8794,7 +8642,6 @@
     "Name": "RoRevokeActivationFactories",
     "DllImport": "api-ms-win-core-winrt-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -8817,7 +8664,6 @@
     "Name": "RoUninitialize",
     "DllImport": "api-ms-win-core-winrt-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -8829,7 +8675,6 @@
     "Name": "RoUnregisterForApartmentShutdown",
     "DllImport": "api-ms-win-core-winrt-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -8858,7 +8703,6 @@
     "Name": "SHBindToFolderIDListParent",
     "DllImport": "shell32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -8954,7 +8798,6 @@
     "Name": "SHBindToFolderIDListParentEx",
     "DllImport": "shell32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -9064,7 +8907,6 @@
     "Name": "SHBindToObject",
     "DllImport": "shell32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -9154,7 +8996,6 @@
     "Name": "SHCreateItemFromIDList",
     "DllImport": "shell32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -9216,7 +9057,6 @@
     "Name": "SHCreateItemFromParsingName",
     "DllImport": "shell32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -9290,7 +9130,6 @@
     "Name": "SHCreateItemFromRelativeName",
     "DllImport": "shell32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -9377,7 +9216,6 @@
     "Name": "SHCreateItemWithParent",
     "DllImport": "shell32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -9470,7 +9308,6 @@
     "Name": "SHCreateShellItem",
     "DllImport": "shell32",
     "Platform": "windows5.1.2600",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -9549,7 +9386,6 @@
     "Name": "SHGetKnownFolderIDList",
     "DllImport": "shell32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -9622,7 +9458,6 @@
     "Name": "SHGetKnownFolderPath",
     "DllImport": "shell32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -9696,7 +9531,6 @@
     "Name": "SHGetNameFromIDList",
     "DllImport": "shell32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -9757,7 +9591,6 @@
     "Name": "SHGetStockIconInfo",
     "DllImport": "shell32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -9813,7 +9646,6 @@
     "Name": "SHSetKnownFolderPath",
     "DllImport": "shell32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -9881,7 +9713,6 @@
     "Name": "SetCurrentProcessExplicitAppUserModelID",
     "DllImport": "shell32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -9911,7 +9742,6 @@
     "Name": "SetFileInformationByHandle",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -9980,7 +9810,6 @@
     "Name": "SetProcessDPIAware",
     "DllImport": "user32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -9995,7 +9824,6 @@
     "Name": "SetProcessDpiAwareness",
     "DllImport": "api-ms-win-shcore-scaling-l1-1-1",
     "Platform": "windows8.1",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -10024,7 +9852,6 @@
     "Name": "SetProcessDpiAwarenessContext",
     "DllImport": "user32",
     "Platform": "windows10.0.15063",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -10053,7 +9880,6 @@
     "Name": "SetThreadErrorMode",
     "DllImport": "kernel32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -10099,7 +9925,6 @@
     "Name": "SetThreadGroupAffinity",
     "DllImport": "kernel32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -10162,7 +9987,6 @@
     "Name": "SetWindowThemeAttribute",
     "DllImport": "uxtheme",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -10231,7 +10055,6 @@
     "Name": "SetupDiGetClassPropertyExW",
     "DllImport": "setupapi",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -10373,7 +10196,6 @@
     "Name": "SetupDiGetClassPropertyW",
     "DllImport": "setupapi",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -10485,7 +10307,6 @@
     "Name": "SetupDiGetDevicePropertyW",
     "DllImport": "setupapi",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -10612,7 +10433,6 @@
     "Name": "SetupDiSetClassPropertyExW",
     "DllImport": "setupapi",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -10738,7 +10558,6 @@
     "Name": "SetupDiSetClassPropertyW",
     "DllImport": "setupapi",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -10834,7 +10653,6 @@
     "Name": "SetupDiSetDevicePropertyW",
     "DllImport": "setupapi",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -10945,7 +10763,6 @@
     "Name": "Shell_NotifyIconGetRect",
     "DllImport": "shell32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -10994,7 +10811,6 @@
     "Name": "SleepConditionVariableCS",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -11054,7 +10870,6 @@
     "Name": "SleepConditionVariableSRW",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -11123,7 +10938,6 @@
     "Index": 193,
     "Name": "SymGetSearchPathW",
     "DllImport": "dbghelp",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -11178,7 +10992,6 @@
     "Index": 194,
     "Name": "SymSetSearchPathW",
     "DllImport": "dbghelp",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -11223,7 +11036,6 @@
     "Name": "SystemParametersInfoForDpi",
     "DllImport": "user32",
     "Platform": "windows10.0.14393",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -11293,7 +11105,6 @@
     "Name": "TryAcquireSRWLockExclusive",
     "DllImport": "kernel32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOLEAN",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOLEAN",
@@ -11326,7 +11137,6 @@
     "Name": "TryAcquireSRWLockShared",
     "DllImport": "kernel32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOLEAN",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOLEAN",
@@ -11359,7 +11169,6 @@
     "Name": "UnregisterPowerSettingNotification",
     "DllImport": "user32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -11388,7 +11197,6 @@
     "Name": "UnregisterTouchWindow",
     "DllImport": "user32",
     "Platform": "windows6.1",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -11416,7 +11224,6 @@
     "Index": 200,
     "Name": "UpdateLayeredWindowIndirect",
     "DllImport": "user32",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -11463,7 +11270,6 @@
     "Name": "UpdateProcThreadAttribute",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -11573,7 +11379,6 @@
     "Name": "WSAPoll",
     "DllImport": "ws2_32",
     "Platform": "windows8.1",
-    "ReturnTypeName": "Int32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Int32"
@@ -11623,7 +11428,6 @@
     "Name": "WaitOnAddress",
     "DllImport": "vertdll",
     "Platform": "windows8.0",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -11694,7 +11498,6 @@
     "Name": "WakeAllConditionVariable",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -11724,7 +11527,6 @@
     "Name": "WakeByAddressAll",
     "DllImport": "vertdll",
     "Platform": "windows8.0",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -11750,7 +11552,6 @@
     "Name": "WakeByAddressSingle",
     "DllImport": "vertdll",
     "Platform": "windows8.0",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -11776,7 +11577,6 @@
     "Name": "WakeConditionVariable",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "Void",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Void"
@@ -11806,7 +11606,6 @@
     "Name": "WindowsCompareStringOrdinal",
     "DllImport": "api-ms-win-core-winrt-string-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -11863,7 +11662,6 @@
     "Name": "WindowsCreateString",
     "DllImport": "api-ms-win-core-winrt-string-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -11924,7 +11722,6 @@
     "Name": "WindowsCreateStringReference",
     "DllImport": "api-ms-win-core-winrt-string-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -11998,7 +11795,6 @@
     "Name": "WindowsDeleteString",
     "DllImport": "api-ms-win-core-winrt-string-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -12028,7 +11824,6 @@
     "Name": "WindowsDuplicateString",
     "DllImport": "api-ms-win-core-winrt-string-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -12075,7 +11870,6 @@
     "Name": "WindowsGetStringLen",
     "DllImport": "api-ms-win-core-winrt-string-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "UInt32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "UInt32"
@@ -12102,7 +11896,6 @@
     "Name": "WindowsGetStringRawBuffer",
     "DllImport": "api-ms-win-core-winrt-string-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "PWSTR",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "PWSTR",
@@ -12146,7 +11939,6 @@
     "Name": "WindowsIsStringEmpty",
     "DllImport": "api-ms-win-core-winrt-string-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -12176,7 +11968,6 @@
     "Name": "WindowsStringHasEmbeddedNull",
     "DllImport": "api-ms-win-core-winrt-string-l1-1-0",
     "Platform": "windows8.0",
-    "ReturnTypeName": "HRESULT",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "HRESULT",
@@ -12222,7 +12013,6 @@
     "Name": "Wow64DisableWow64FsRedirection",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -12254,7 +12044,6 @@
     "Name": "Wow64EnableWow64FsRedirection",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOLEAN",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOLEAN",
@@ -12283,7 +12072,6 @@
     "Name": "Wow64RevertWow64FsRedirection",
     "DllImport": "kernel32",
     "Platform": "windows6.0.6000",
-    "ReturnTypeName": "BOOL",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "BOOL",
@@ -12312,7 +12100,6 @@
     "Name": "inet_ntop",
     "DllImport": "ws2_32",
     "Platform": "windows8.1",
-    "ReturnTypeName": "PSTR",
     "ReturnType": {
       "Kind": "ApiRef",
       "Name": "PSTR",
@@ -12378,7 +12165,6 @@
     "Name": "inet_pton",
     "DllImport": "ws2_32",
     "Platform": "windows8.1",
-    "ReturnTypeName": "Int32",
     "ReturnType": {
       "Kind": "Native",
       "Name": "Int32"
