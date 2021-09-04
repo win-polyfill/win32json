@@ -197,7 +197,7 @@ async function polyfillAll() {
         } as ApiInformation;
         const existCount = DllImportSet.get(DllImport) ?? 0
         DllImportSet.set(DllImport, existCount + 1)
-        // apiList.push(newApi);
+        apiList.push(newApi);
       }
     }
   }
