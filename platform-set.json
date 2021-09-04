@@ -1,5 +1,17 @@
 [
   {
+    "Platform": "windows5.0",
+    "Version": "5.0.2195"
+  },
+  {
+    "Platform": "windows2000",
+    "Version": "5.0.2195"
+  },
+  {
+    "Platform": "windowsserver2000",
+    "Version": "5.0.2195"
+  },
+  {
     "Platform": "windows10.0.10240",
     "Version": "0.0.0"
   },
@@ -36,15 +48,7 @@
     "Version": "0.0.0"
   },
   {
-    "Platform": "windows5.0",
-    "Version": "0.0.0"
-  },
-  {
     "Platform": "windowsserver2003",
-    "Version": "0.0.0"
-  },
-  {
-    "Platform": "windows2000",
     "Version": "0.0.0"
   },
   {
@@ -69,10 +73,6 @@
   },
   {
     "Platform": "windowsserver2012",
-    "Version": "0.0.0"
-  },
-  {
-    "Platform": "windowsserver2000",
     "Version": "0.0.0"
   },
   {
