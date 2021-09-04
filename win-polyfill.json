@@ -2722,9 +2722,87 @@
   {
     "Index": 46,
     "Name": "EnumProcessModulesEx",
-    "DllImport": "",
+    "DllImport": "psapi",
     "PlatformPolyfill": "",
-    "Platform": ""
+    "Platform": "windowsvista",
+    "ReturnType": {
+      "Kind": "ApiRef",
+      "Name": "BOOL",
+      "TargetKind": "Default",
+      "Api": "Foundation",
+      "Parents": []
+    },
+    "Params": [
+      {
+        "Name": "hProcess",
+        "Type": {
+          "Kind": "ApiRef",
+          "Name": "HANDLE",
+          "TargetKind": "Default",
+          "Api": "Foundation",
+          "Parents": []
+        },
+        "Attrs": [
+          "In"
+        ]
+      },
+      {
+        "Name": "lphModule",
+        "Type": {
+          "Kind": "PointerTo",
+          "Child": {
+            "Kind": "ApiRef",
+            "Name": "HINSTANCE",
+            "TargetKind": "Default",
+            "Api": "Foundation",
+            "Parents": []
+          }
+        },
+        "Attrs": [
+          "Out",
+          {
+            "Kind": "MemorySize",
+            "BytesParamIndex": 2
+          }
+        ]
+      },
+      {
+        "Name": "cb",
+        "Type": {
+          "Kind": "Native",
+          "Name": "UInt32"
+        },
+        "Attrs": [
+          "In"
+        ]
+      },
+      {
+        "Name": "lpcbNeeded",
+        "Type": {
+          "Kind": "PointerTo",
+          "Child": {
+            "Kind": "Native",
+            "Name": "UInt32"
+          }
+        },
+        "Attrs": [
+          "Out"
+        ]
+      },
+      {
+        "Name": "dwFilterFlag",
+        "Type": {
+          "Kind": "ApiRef",
+          "Name": "ENUM_PROCESS_MODULES_EX_FLAGS",
+          "TargetKind": "Default",
+          "Api": "System.ProcessStatus",
+          "Parents": []
+        },
+        "Attrs": [
+          "In"
+        ]
+      }
+    ]
   },
   {
     "Index": 47,
@@ -5218,9 +5296,65 @@
   {
     "Index": 97,
     "Name": "GetWsChangesEx",
-    "DllImport": "",
+    "DllImport": "psapi",
     "PlatformPolyfill": "",
-    "Platform": ""
+    "Platform": "windowsvista",
+    "ReturnType": {
+      "Kind": "ApiRef",
+      "Name": "BOOL",
+      "TargetKind": "Default",
+      "Api": "Foundation",
+      "Parents": []
+    },
+    "Params": [
+      {
+        "Name": "hProcess",
+        "Type": {
+          "Kind": "ApiRef",
+          "Name": "HANDLE",
+          "TargetKind": "Default",
+          "Api": "Foundation",
+          "Parents": []
+        },
+        "Attrs": [
+          "In"
+        ]
+      },
+      {
+        "Name": "lpWatchInfoEx",
+        "Type": {
+          "Kind": "PointerTo",
+          "Child": {
+            "Kind": "ApiRef",
+            "Name": "PSAPI_WS_WATCH_INFORMATION_EX",
+            "TargetKind": "Default",
+            "Api": "System.ProcessStatus",
+            "Parents": []
+          }
+        },
+        "Attrs": [
+          "Out",
+          {
+            "Kind": "MemorySize",
+            "BytesParamIndex": 2
+          }
+        ]
+      },
+      {
+        "Name": "cb",
+        "Type": {
+          "Kind": "PointerTo",
+          "Child": {
+            "Kind": "Native",
+            "Name": "UInt32"
+          }
+        },
+        "Attrs": [
+          "In",
+          "Out"
+        ]
+      }
+    ]
   },
   {
     "Index": 98,
@@ -5800,9 +5934,9 @@
   {
     "Index": 109,
     "Name": "InterlockedCompareExchange64",
-    "DllImport": "",
+    "DllImport": "kernel32",
     "PlatformPolyfill": "",
-    "Platform": ""
+    "Platform": "windowsvista"
   },
   {
     "Index": 110,
@@ -7045,9 +7179,58 @@
   {
     "Index": 132,
     "Name": "QueryWorkingSetEx",
-    "DllImport": "",
+    "DllImport": "psapi",
     "PlatformPolyfill": "",
-    "Platform": ""
+    "Platform": "windowsvista",
+    "ReturnType": {
+      "Kind": "ApiRef",
+      "Name": "BOOL",
+      "TargetKind": "Default",
+      "Api": "Foundation",
+      "Parents": []
+    },
+    "Params": [
+      {
+        "Name": "hProcess",
+        "Type": {
+          "Kind": "ApiRef",
+          "Name": "HANDLE",
+          "TargetKind": "Default",
+          "Api": "Foundation",
+          "Parents": []
+        },
+        "Attrs": [
+          "In"
+        ]
+      },
+      {
+        "Name": "pv",
+        "Type": {
+          "Kind": "PointerTo",
+          "Child": {
+            "Kind": "Native",
+            "Name": "Void"
+          }
+        },
+        "Attrs": [
+          "Out",
+          {
+            "Kind": "MemorySize",
+            "BytesParamIndex": 2
+          }
+        ]
+      },
+      {
+        "Name": "cb",
+        "Type": {
+          "Kind": "Native",
+          "Name": "UInt32"
+        },
+        "Attrs": [
+          "In"
+        ]
+      }
+    ]
   },
   {
     "Index": 133,

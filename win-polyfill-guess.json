@@ -1,34 +1,58 @@
 [
-    {
-        "Name": "D3D11CreateDevice",
-        "Platform": "windows6.1"
-    },
-    {
-        "Name": "Direct3DCreate9Ex",
-        "Platform": "windowsvista"
-    },
-    {
-        "Name": "EncodePointer",
-        "Platform": "windowsvista"
-    },
-    {
-        "Name": "DecodePointer",
-        "Platform": "windowsvista"
-    },
-    {
-        "Name": "SymGetSearchPathW",
-        "Platform": "windows10.0.19041"
-    },
-    {
-        "Name": "SymSetSearchPathW",
-        "Platform": "windows10.0.19041"
-    },
-    {
-        "Name": "CreateNamedPipeW",
-        "Platform": "windowsvista"
-    },
-    {
-        "Name": "UpdateLayeredWindowIndirect",
-        "Platform": "windowsvista"
-    }
+  {
+    "Name": "D3D11CreateDevice",
+    "Platform": "windows6.1"
+  },
+  {
+    "Name": "Direct3DCreate9Ex",
+    "Platform": "windowsvista"
+  },
+  {
+    "Name": "EncodePointer",
+    "Platform": "windowsvista"
+  },
+  {
+    "Name": "DecodePointer",
+    "Platform": "windowsvista"
+  },
+  {
+    "Name": "SymGetSearchPathW",
+    "Platform": "windows10.0.19041"
+  },
+  {
+    "Name": "SymSetSearchPathW",
+    "Platform": "windows10.0.19041"
+  },
+  {
+    "Name": "CreateNamedPipeW",
+    "Platform": "windowsvista"
+  },
+  {
+    "Name": "UpdateLayeredWindowIndirect",
+    "Platform": "windowsvista"
+  },
+  {
+    "Name": "EnumProcessModulesEx",
+    "DllImport": "psapi",
+    "ForwardName": "K32EnumProcessModulesEx",
+    "Platform": "windowsvista"
+  },
+  {
+    "Name": "GetWsChangesEx",
+    "DllImport": "psapi",
+    "ForwardName": "K32GetWsChangesEx",
+    "Platform": "windowsvista"
+  },
+  {
+    "Name": "QueryWorkingSetEx",
+    "DllImport": "psapi",
+    "ForwardName": "K32QueryWorkingSetEx",
+    "Platform": "windowsvista"
+  },
+  {
+    "Name": "InterlockedCompareExchange64",
+    "DllImport": "kernel32",
+    "Platform": "windowsvista",
+    "Architectures": ["X86"]
+  }
 ]

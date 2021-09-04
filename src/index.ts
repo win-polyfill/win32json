@@ -7,7 +7,9 @@ export interface ApiInformation {
     Name: string
     DllImport: string
     ReturnType: TypeInfo
-    Params: TypeInfo[]
+    Params: ParamInfo[]
+    Architectures: string[]
+    ForwardName?: string
 }
 export interface TypeInfo {
     Kind: string
@@ -137,38 +139,56 @@ async function polyfillAll() {
         platformMap.set(p.Platform, parseVersion(p.Version))
     }
     // console.log(platformMap)
-    const { apiMap, apiList, maximalApiIndex } = await loadApiSet(path.join(rootDir, 'win-polyfill.json'))
+    const { apiList, maximalApiIndex } = await loadApiSet(path.join(rootDir, 'win-polyfill.json'))
     console.log(maximalApiIndex)
     const patchApiSet = await loadApiSet(path.join(rootDir, 'win-polyfill-guess.json'))
 
     const apiRoot = path.join(rootDir, 'api')
     const files = await fs.readdir(apiRoot)
+    const allFunctions:FunctionInfo[] = []
+    const allFunctionsMap = new Map<string, FunctionInfo>()
     for (let f of files) {
         const apiFile = path.join(apiRoot, f)
         // console.log(apiFile)
         const info = await readJson(apiFile)
         for (let f of info.Functions as FunctionInfo[]) {
-            let platform = normalizePlatform(f.Platform)
-            const existApi = apiMap.get(f.Name)
-            if (f.ReturnAttrs.length > 0) {
-                console.log(f.Name)
+            allFunctions.push(f)
+            allFunctionsMap.set(f.Name, f)
+            if (f.Architectures.length > 0) {
+                console.log(f.Architectures)
             }
-            if (existApi) {
-                if (!existApi.DllImport) {
-                    existApi.DllImport = f.DllImport.toLowerCase()
-                }
-                if (platform !== null) {
-                    existApi.Platform = platform
-                }
-                const patchApi = patchApiSet.apiMap.get(f.Name)
-                if (patchApi !== undefined) {
-                    existApi.Platform = patchApi.Platform;
-                }
-                if (existApi.Platform === undefined || existApi.Platform === '') {
-                    console.log(existApi.Name)
-                }
-                existApi.ReturnType = f.ReturnType
-                existApi.Params = f.Params
+        }
+    }
+    for (let existApi of apiList) {
+        const patchApi = patchApiSet.apiMap.get(existApi.Name)
+        let f = allFunctionsMap.get(existApi.Name)
+        if (!f) {
+            if (patchApi) {
+                f = allFunctionsMap.get(patchApi.ForwardName!)
+            }
+            console.log(existApi.Name)
+        }
+        if (f) {
+            let platform = normalizePlatform(f.Platform)
+            if (!existApi.DllImport) {
+                existApi.DllImport = f.DllImport.toLowerCase()
+            }
+            if (platform !== null) {
+                existApi.Platform = platform
+            }
+            if (existApi.Platform === undefined) {
+                console.log(existApi.Name)
+            }
+            existApi.ReturnType = f.ReturnType
+            existApi.Params = f.Params
+           // existApi.Architectures = f.Architectures
+        }
+        if (patchApi !== undefined) {
+            if (patchApi.Platform) {
+                existApi.Platform = patchApi.Platform;
+            }
+            if (patchApi.DllImport) {
+                existApi.DllImport = patchApi.DllImport;
             }
         }
     }
