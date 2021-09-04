@@ -20,27 +20,35 @@
     "Version": "5.2.3790"
   },
   {
+    "Platform": "windows6.0.6000",
+    "Version": "6.0.6000"
+  },
+  {
+    "Platform": "windowsvista",
+    "Version": "6.0.6000"
+  },
+  {
+    "Platform": "windowsserver2008",
+    "Version": "6.0.6000"
+  },
+  {
+    "Platform": "windows6.1",
+    "Version": "6.1.7600"
+  },
+  {
+    "Platform": "windows8.0",
+    "Version": "6.2.9200"
+  },
+  {
+    "Platform": "windowsserver2012",
+    "Version": "6.2.9200"
+  },
+  {
     "Platform": "windows10.0.10240",
     "Version": "0.0.0"
   },
   {
-    "Platform": "windows6.1",
-    "Version": "0.0.0"
-  },
-  {
-    "Platform": "windows6.0.6000",
-    "Version": "0.0.0"
-  },
-  {
-    "Platform": "windows8.0",
-    "Version": "0.0.0"
-  },
-  {
     "Platform": "windows8.1",
-    "Version": "0.0.0"
-  },
-  {
-    "Platform": "windowsvista",
     "Version": "0.0.0"
   },
   {
@@ -64,15 +72,7 @@
     "Version": "0.0.0"
   },
   {
-    "Platform": "windowsserver2008",
-    "Version": "0.0.0"
-  },
-  {
     "Platform": "windowsserver2016",
-    "Version": "0.0.0"
-  },
-  {
-    "Platform": "windowsserver2012",
     "Version": "0.0.0"
   },
   {
