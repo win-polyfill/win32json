@@ -53,7 +53,19 @@
   },
   {
     "Platform": "windows10.0.10240",
-    "Version": "0.0.0"
+    "Version": "10.0.10240"
+  },
+  {
+    "Platform": "windows10.0.10586",
+    "Version": "10.0.10586"
+  },
+  {
+    "Platform": "windows10.0.14393",
+    "Version": "10.0.14393"
+  },
+  {
+    "Platform": "windowsserver2016",
+    "Version": "10.0.14393"
   },
   {
     "Platform": "windows10.0.16299",
@@ -68,23 +80,11 @@
     "Version": "0.0.0"
   },
   {
-    "Platform": "windows10.0.14393",
-    "Version": "0.0.0"
-  },
-  {
     "Platform": "windows10.0.19041",
     "Version": "0.0.0"
   },
   {
-    "Platform": "windowsserver2016",
-    "Version": "0.0.0"
-  },
-  {
     "Platform": "windows10.0.17763",
-    "Version": "0.0.0"
-  },
-  {
-    "Platform": "windows10.0.10586",
     "Version": "0.0.0"
   }
 ]
