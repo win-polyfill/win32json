@@ -16,16 +16,21 @@ export interface TypeInfo {
     Api: string
     Parents: any []
 }
-export interface FunctionInformation {
+export interface ParamInfo {
+    Name: string
+    Type: TypeInfo
+    Attrs: string[]
+}
+export interface FunctionInfo {
     Name: string
     SetLastError: boolean
     DllImport: string
     ReturnType: TypeInfo
-    ReturnAttrs: any[]
-    Architectures: any[]
+    ReturnAttrs: string[]
+    Architectures: string[]
     Platform: string | null
-    Attrs: any[]
-    Params: TypeInfo[]
+    // Attrs: string[] /* There is no function Attrs */
+    Params: ParamInfo[]
 }
 const rootDir = path.join(__dirname, '..')
 
@@ -142,9 +147,12 @@ async function polyfillAll() {
         const apiFile = path.join(apiRoot, f)
         // console.log(apiFile)
         const info = await readJson(apiFile)
-        for (let f of info.Functions as FunctionInformation[]) {
+        for (let f of info.Functions as FunctionInfo[]) {
             let platform = normalizePlatform(f.Platform)
             const existApi = apiMap.get(f.Name)
+            if (f.ReturnAttrs.length > 0) {
+                console.log(f.Name)
+            }
             if (existApi) {
                 if (!existApi.DllImport) {
                     existApi.DllImport = f.DllImport.toLowerCase()
@@ -165,6 +173,7 @@ async function polyfillAll() {
         }
     }
     fs.writeFile(path.join(rootDir, 'win-polyfill.json'), JSON.stringify(apiList, null, 2))
+    console.log('done')
 }
 
 async function start() {
