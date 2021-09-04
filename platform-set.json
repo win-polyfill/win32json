@@ -68,23 +68,23 @@
     "Version": "10.0.14393"
   },
   {
+    "Platform": "windows10.0.15063",
+    "Version": "10.0.15063"
+  },
+  {
     "Platform": "windows10.0.16299",
-    "Version": "0.0.0"
+    "Version": "10.0.16299"
   },
   {
     "Platform": "windows10.0.17134",
-    "Version": "0.0.0"
-  },
-  {
-    "Platform": "windows10.0.15063",
-    "Version": "0.0.0"
-  },
-  {
-    "Platform": "windows10.0.19041",
-    "Version": "0.0.0"
+    "Version": "10.0.17134"
   },
   {
     "Platform": "windows10.0.17763",
-    "Version": "0.0.0"
+    "Version": "10.0.17763"
+  },
+  {
+    "Platform": "windows10.0.19041",
+    "Version": "10.0.19041"
   }
 ]
