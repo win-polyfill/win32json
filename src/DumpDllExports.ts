@@ -18,8 +18,8 @@ const WinPolyfillRoot = 'C:/work/win-polyfill/'
 const Dumpbin =
   'C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64/dumpbin.exe'
 export const dumpDllWorkDir = path.join(WinPolyfillRoot, 'tmp')
-export const Win200Sp4DirRaw = path.join(WinPolyfillRoot, 'Windows2000-SP4')
-const Win200Sp4DirDll = path.join(WinPolyfillRoot, 'Windows2000-SP4-Dll')
+export const Win2000Sp4DirRaw = path.join(WinPolyfillRoot, 'Windows2000-SP4')
+const Win2000Sp4DirDll = path.join(WinPolyfillRoot, 'Windows2000-SP4-Dll')
 const Win10RtmDirDll = path.join(WinPolyfillRoot, 'Windows10-RTM-Dll')
 const Win10SdkDir = 'C:/Program Files (x86)/Windows Kits/10/'
 const Win10SdkVersion = '10.0.19041.0'
@@ -169,7 +169,6 @@ interface DumpBinaryItem {
 export async function DumpBinaryForItem(
   filesToDump: DumpBinaryItem[],
   dllImportItem: DllImportItem,
-  saveKey: string,
   dumpArgs: string[],
 ): Promise<void> {
   const promises: Promise<string[]>[] = []
@@ -178,7 +177,7 @@ export async function DumpBinaryForItem(
       const promiseDump = DumpBin(
         path.join(item.path, arch, dllImportItem.name + item.suffix),
         dumpArgs,
-      ).then((x) => (item.dump[`${saveKey}_${arch}`] = x))
+      ).then((x) => (item.dump[arch] = x))
       promises.push(promiseDump)
     })
   })
@@ -199,8 +198,8 @@ export async function DumpBinaryFiles(
         dump: {},
       },
       {
-        name: 'Win200Sp4',
-        path: Win200Sp4DirDll,
+        name: 'Win2000Sp4',
+        path: Win2000Sp4DirDll,
         suffix: '.dll',
         dump: {},
       },
@@ -211,7 +210,7 @@ export async function DumpBinaryFiles(
         dump: {},
       },
     ]
-    await DumpBinaryForItem(dumpItem, dllImportItem, 'exports', ['/EXPORTS'])
+    await DumpBinaryForItem(dumpItem, dllImportItem, ['/ALL', '/RAWDATA:NONE'])
     dumpList.push({
       name: dllImportItem.name,
       hasLib: dllImportItem.hasLib,
@@ -233,7 +232,7 @@ export async function DumpDllExports(rootDir: string): Promise<void> {
     path.join(rootDir, 'win-polyfill-dll-list.json'),
   )) as DllImportItem[]
   // updateWinSdkLib(rootDir, dllImportList)
-  // DumpDllExtract(Win200Sp4DirRaw, dumpDllWorkDir, dllImportList)
+  // DumpDllExtract(Win2000Sp4DirRaw, dumpDllWorkDir, dllImportList)
 
   /*
   DumpDllExtract(
@@ -245,3 +244,56 @@ export async function DumpDllExports(rootDir: string): Promise<void> {
 
   DumpBinaryFiles(rootDir, dllImportList)
 }
+
+// dumpbin /ALL /RAWDATA:NONE "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" >C:\work\out.txt
+
+// dumpbin /SYMBOLS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" >C:\work\out-symbols.txt
+
+// dumpbin /EXPORTS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" >C:\work\out-symbols.txt
+
+// dumpbin /RELOCATIONS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" >C:\work\out-symbols.txt
+// dumpbin /RELOCATIONS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" >C:\work\out-symbols.txt
+// dumpbin /RELOCATIONS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" >C:\work\out-symbols.txt
+// dumpbin /SYMBOLS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" >C:\work\out-symbols.txt
+// dumpbin /DIRECTIVES "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" >C:\work\out-symbols.txt
+
+// dumpbin /ARCHIVEMEMBERS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" >C:\work\out-symbols.txt
+
+// dumpbin /ARCHIVEMEMBERS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" >C:\work\out-symbols.txt
+
+// dumpbin /ARCHIVEMEMBERS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" >C:\work\out-symbols.txt
+// dumpbin /DEPENDENTS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" >C:\work\out-symbols.txt
+
+// dumpbin "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" /DEPENDENTS >C:\work\out-symbols.txt
+/**
+ * 
+   dumpbin  /ALL /RAWDATA:NONE "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+   dumpbin  /ALL /RAWDATA:NONE "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\netlib.lib"  >C:\work\out-symbols.txt
+   
+   dumpbin  /ARCHIVEMEMBERS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+      /CLRHEADER "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+   dumpbin     /DEPENDENTS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+     dumpbin   /DIRECTIVES "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+      /DISASM[:{BYTES|NOBYTES}] "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+      /ERRORREPORT:{NONE|PROMPT|QUEUE|SEND} "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+dumpbin        /EXPORTS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+dumpbin        /FPO "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+      dumpbin  /HEADERS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+      /IMPORTS[:filename] "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+      /LINENUMBERS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+      /LINKERMEMBER[:{1|2}] "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+    dumpbin    /LOADCONFIG "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+      /NOLOGO "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+      /OUT:filename "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+   dumpbin     /PDATA "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+      /PDBPATH[:VERBOSE] "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+      /RANGE:vaMin[,vaMax] "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+      /RAWDATA[:{NONE|1|2|4|8}[,#]] "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+   dumpbin     /RELOCATIONS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+      /SECTION:name "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+    dumpbin    /SUMMARY "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+    dumpbin    /SYMBOLS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+      /TLS
+   dumpbin     /UNWINDINFO "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+
+ */
