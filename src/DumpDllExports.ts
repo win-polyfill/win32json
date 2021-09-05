@@ -20,6 +20,7 @@ const Dumpbin =
 export const dumpDllWorkDir = path.join(WinPolyfillRoot, 'tmp')
 export const Win200Sp4DirRaw = path.join(WinPolyfillRoot, 'Windows2000-SP4')
 const Win200Sp4DirDll = path.join(WinPolyfillRoot, 'Windows2000-SP4-Dll')
+const Win10RtmDirDll = path.join(WinPolyfillRoot, 'Windows10-RTM-Dll')
 const Win10SdkDir = 'C:/Program Files (x86)/Windows Kits/10/'
 const Win10SdkVersion = '10.0.19041.0'
 const Win10SdkDirLib = path.join(Win10SdkDir, `Lib/${Win10SdkVersion}/um`)
@@ -203,6 +204,12 @@ export async function DumpBinaryFiles(
         suffix: '.dll',
         dump: {},
       },
+      {
+        name: 'Win10Rtm',
+        path: Win10RtmDirDll,
+        suffix: '.dll',
+        dump: {},
+      },
     ]
     await DumpBinaryForItem(dumpItem, dllImportItem, 'exports', ['/EXPORTS'])
     dumpList.push({
@@ -227,6 +234,14 @@ export async function DumpDllExports(rootDir: string): Promise<void> {
   )) as DllImportItem[]
   // updateWinSdkLib(rootDir, dllImportList)
   // DumpDllExtract(Win200Sp4DirRaw, dumpDllWorkDir, dllImportList)
+
+  /*
+  DumpDllExtract(
+    path.join(WinPolyfillRoot, 'Windows10-RTM-Dll-Raw', 'x64'),
+    dumpDllWorkDir,
+    dllImportList,
+  )
+  */
 
   DumpBinaryFiles(rootDir, dllImportList)
 }
