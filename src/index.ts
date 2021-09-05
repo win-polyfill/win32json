@@ -7,6 +7,7 @@ import {
   PlatformInfo,
   WinMetaApi,
 } from './WinMetadata'
+import { DumpDllExports } from './DumpDllExports'
 
 const rootDir = path.join(__dirname, '..')
 
@@ -107,7 +108,7 @@ function updateDllImportStat(
   }
 }
 
-async function polyfillAll() {
+export async function polyfillAll(): Promise<void> {
   const platformList = (await readJson(
     path.join(rootDir, 'platform-set.json'),
   )) as PlatformInfo[]
@@ -226,15 +227,18 @@ async function polyfillAll() {
       // console.log(`${Name} ${Count}`)
     }
   }
+  /*
   fs.writeFile(
     path.join(rootDir, 'win-polyfill-dll-list.json'),
     JSON.stringify(dllList, null, 2),
   )
+  */
   console.log(`done ${allFunctions.length}`)
 }
 
 async function start() {
-  await polyfillAll()
+  // await polyfillAll()
+  await DumpDllExports(rootDir)
 }
 
 start()

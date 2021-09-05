@@ -2,27 +2,50 @@
   {
     "name": "aclui",
     "totalCount": 3,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
   },
   {
     "name": "activeds",
     "totalCount": 22,
-    "polyfillCount": 18
+    "polyfillCount": 18,
+    "hasLib": true
+  },
+  {
+    "name": "adsiid",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "advapi32",
     "totalCount": 609,
-    "polyfillCount": 129
+    "polyfillCount": 129,
+    "hasLib": true
   },
   {
     "name": "advpack",
     "totalCount": 50,
-    "polyfillCount": 2
+    "polyfillCount": 2,
+    "hasLib": true
+  },
+  {
+    "name": "ahadmin",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "amsi",
     "totalCount": 6,
-    "polyfillCount": 6
+    "polyfillCount": 6,
+    "hasLib": true
+  },
+  {
+    "name": "amstrmid",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "api-ms-win-appmodel-runtime-l1-1-1",
@@ -315,14 +338,87 @@
     "polyfillCount": 0
   },
   {
+    "name": "apidll",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
     "name": "apphelp",
     "totalCount": 1,
     "polyfillCount": 0
   },
   {
+    "name": "appmgmts",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "appmgr",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "appnotify",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "arm64rt",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "armrt",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "asycfilt",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "audiobaseprocessingobject",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "audiobaseprocessingobjectv140",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "audioeng",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "audiomediatypecrt",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
     "name": "authz",
     "totalCount": 33,
-    "polyfillCount": 10
+    "polyfillCount": 10,
+    "hasLib": true
+  },
+  {
+    "name": "aux_ulib",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "avicap32",
@@ -332,42 +428,98 @@
   {
     "name": "avifil32",
     "totalCount": 60,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "avrt",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "basesrv",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "bcrypt",
     "totalCount": 53,
-    "polyfillCount": 53
+    "polyfillCount": 53,
+    "hasLib": true
+  },
+  {
+    "name": "bits",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "bluetoothapis",
     "totalCount": 28,
-    "polyfillCount": 28
+    "polyfillCount": 28,
+    "hasLib": true
   },
   {
     "name": "bthprops",
     "totalCount": 6,
-    "polyfillCount": 5
+    "polyfillCount": 5,
+    "hasLib": true
+  },
+  {
+    "name": "bufferoverflow",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "bufferoverflowu",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "cabinet",
     "totalCount": 22,
-    "polyfillCount": 12
+    "polyfillCount": 12,
+    "hasLib": true
   },
   {
     "name": "certadm",
     "totalCount": 18,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "certca",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "certcli",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "certidl",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "certpoleng",
     "totalCount": 8,
-    "polyfillCount": 6
+    "polyfillCount": 6,
+    "hasLib": true
   },
   {
     "name": "cfgmgr32",
     "totalCount": 239,
-    "polyfillCount": 37
+    "polyfillCount": 37,
+    "hasLib": true
   },
   {
     "name": "chakra",
@@ -375,104 +527,190 @@
     "polyfillCount": 0
   },
   {
+    "name": "chakrart",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "cimfs",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
     "name": "cldapi",
     "totalCount": 35,
-    "polyfillCount": 33
+    "polyfillCount": 33,
+    "hasLib": true
+  },
+  {
+    "name": "clfsmgmt",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "clfsw32",
     "totalCount": 59,
-    "polyfillCount": 52
+    "polyfillCount": 52,
+    "hasLib": true
   },
   {
     "name": "clusapi",
     "totalCount": 225,
-    "polyfillCount": 201
+    "polyfillCount": 201,
+    "hasLib": true
   },
   {
     "name": "comctl32",
     "totalCount": 115,
-    "polyfillCount": 110
+    "polyfillCount": 110,
+    "hasLib": true
   },
   {
     "name": "comdlg32",
     "totalCount": 21,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "comppkgsup",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "compstui",
     "totalCount": 4,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "computecore",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "computenetwork",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "computestorage",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "comsvcs",
     "totalCount": 7,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "coremessaging",
     "totalCount": 1,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "correngine",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "credui",
     "totalCount": 19,
-    "polyfillCount": 9
+    "polyfillCount": 9,
+    "hasLib": true
   },
   {
     "name": "crypt32",
     "totalCount": 229,
-    "polyfillCount": 19
+    "polyfillCount": 19,
+    "hasLib": true
+  },
+  {
+    "name": "cryptdll",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "cryptnet",
     "totalCount": 5,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "cryptui",
     "totalCount": 10,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
   },
   {
     "name": "cryptxml",
     "totalCount": 19,
-    "polyfillCount": 17
+    "polyfillCount": 17,
+    "hasLib": true
   },
   {
     "name": "cscapi",
     "totalCount": 4,
-    "polyfillCount": 4
+    "polyfillCount": 4,
+    "hasLib": true
+  },
+  {
+    "name": "cscdll",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "d2d1",
     "totalCount": 13,
-    "polyfillCount": 9
+    "polyfillCount": 9,
+    "hasLib": true
   },
   {
     "name": "d3d10",
     "totalCount": 27,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "d3d10_1",
     "totalCount": 2,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "d3d11",
     "totalCount": 5,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
   },
   {
     "name": "d3d12",
     "totalCount": 7,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "d3d9",
     "totalCount": 9,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
+  },
+  {
+    "name": "d3dcompiler",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "d3dcompiler_47",
@@ -482,107 +720,200 @@
   {
     "name": "d3dcsx",
     "totalCount": 9,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "d3dcsxd",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "davclnt",
     "totalCount": 18,
-    "polyfillCount": 5
+    "polyfillCount": 5,
+    "hasLib": true
   },
   {
     "name": "dbgeng",
     "totalCount": 4,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "dbghelp",
     "totalCount": 214,
-    "polyfillCount": 2
+    "polyfillCount": 2,
+    "hasLib": true
   },
   {
     "name": "dbgmodel",
     "totalCount": 1,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "dciman32",
     "totalCount": 20,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "dcomp",
     "totalCount": 6,
-    "polyfillCount": 3
+    "polyfillCount": 3,
+    "hasLib": true
   },
   {
     "name": "ddraw",
     "totalCount": 7,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "devenum",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "deviceaccess",
     "totalCount": 1,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "devmgr",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "dflayout",
     "totalCount": 1,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "dhcpcsvc",
     "totalCount": 15,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "dhcpcsvc6",
     "totalCount": 6,
-    "polyfillCount": 6
+    "polyfillCount": 6,
+    "hasLib": true
   },
   {
     "name": "dhcpsapi",
     "totalCount": 196,
-    "polyfillCount": 150
+    "polyfillCount": 150,
+    "hasLib": true
   },
   {
     "name": "diagnosticdataquery",
     "totalCount": 35,
-    "polyfillCount": 35
+    "polyfillCount": 35,
+    "hasLib": true
   },
   {
     "name": "dinput8",
     "totalCount": 1,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "directml",
     "totalCount": 2,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
+  },
+  {
+    "name": "dloadhelper",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "dmoguids",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "dmprocessxmlfiltered",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "dnsapi",
     "totalCount": 57,
-    "polyfillCount": 16
+    "polyfillCount": 16,
+    "hasLib": true
+  },
+  {
+    "name": "dnscrcli",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "dnslib",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "dnsperf",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "dnsrpc",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "dnsrslvr",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "dpx",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "drt",
     "totalCount": 16,
-    "polyfillCount": 16
+    "polyfillCount": 16,
+    "hasLib": true
   },
   {
     "name": "drtprov",
     "totalCount": 9,
-    "polyfillCount": 9
+    "polyfillCount": 9,
+    "hasLib": true
   },
   {
     "name": "drttransport",
     "totalCount": 2,
-    "polyfillCount": 2
+    "polyfillCount": 2,
+    "hasLib": true
   },
   {
     "name": "dsound",
     "totalCount": 10,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "dsparse",
@@ -592,592 +923,1448 @@
   {
     "name": "dsprop",
     "totalCount": 7,
-    "polyfillCount": 7
+    "polyfillCount": 7,
+    "hasLib": true
   },
   {
     "name": "dssec",
     "totalCount": 4,
-    "polyfillCount": 3
+    "polyfillCount": 3,
+    "hasLib": true
+  },
+  {
+    "name": "dststlog",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "dsuiext",
     "totalCount": 4,
-    "polyfillCount": 4
+    "polyfillCount": 4,
+    "hasLib": true
+  },
+  {
+    "name": "dtchelp",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "dwmapi",
     "totalCount": 31,
-    "polyfillCount": 31
+    "polyfillCount": 31,
+    "hasLib": true
   },
   {
     "name": "dwrite",
     "totalCount": 1,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
   },
   {
     "name": "dxcompiler",
     "totalCount": 2,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "dxcore",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "dxgi",
     "totalCount": 5,
-    "polyfillCount": 4
+    "polyfillCount": 4,
+    "hasLib": true
+  },
+  {
+    "name": "dxguid",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "dxtmsft",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "dxtrans",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "dxva2",
     "totalCount": 38,
-    "polyfillCount": 38
+    "polyfillCount": 38,
+    "hasLib": true
   },
   {
     "name": "eappcfg",
     "totalCount": 14,
-    "polyfillCount": 14
+    "polyfillCount": 14,
+    "hasLib": true
   },
   {
     "name": "eappprxy",
     "totalCount": 18,
-    "polyfillCount": 17
+    "polyfillCount": 17,
+    "hasLib": true
+  },
+  {
+    "name": "easregprov",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "efswrt",
     "totalCount": 2,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
+  },
+  {
+    "name": "ehstorguids",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "elfapi",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "els",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "elscore",
     "totalCount": 5,
-    "polyfillCount": 5
+    "polyfillCount": 5,
+    "hasLib": true
   },
   {
     "name": "esent",
     "totalCount": 229,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "evr",
     "totalCount": 7,
-    "polyfillCount": 2
+    "polyfillCount": 2,
+    "hasLib": true
   },
   {
     "name": "faultrep",
     "totalCount": 4,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
+  },
+  {
+    "name": "feclient",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "fhsvcctl",
     "totalCount": 7,
-    "polyfillCount": 7
+    "polyfillCount": 7,
+    "hasLib": true
+  },
+  {
+    "name": "fileextd",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "fltlib",
     "totalCount": 28,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "fontsub",
     "totalCount": 2,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "framedyd",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "framedyn",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "fwpuclnt",
     "totalCount": 192,
-    "polyfillCount": 181
+    "polyfillCount": 181,
+    "hasLib": true
   },
   {
     "name": "fxsutility",
     "totalCount": 2,
-    "polyfillCount": 2
+    "polyfillCount": 2,
+    "hasLib": true
   },
   {
     "name": "gdi32",
     "totalCount": 431,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
+  },
+  {
+    "name": "gdiplus",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "glmf32",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "glu32",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "gpedit",
     "totalCount": 6,
-    "polyfillCount": 6
+    "polyfillCount": 6,
+    "hasLib": true
+  },
+  {
+    "name": "gpmuuid",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "hbaapi",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "hhsetup",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "hid",
     "totalCount": 43,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "hlink",
     "totalCount": 28,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "hrtfapo",
     "totalCount": 1,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "htmlhelp",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "httpapi",
     "totalCount": 39,
-    "polyfillCount": 36
+    "polyfillCount": 36,
+    "hasLib": true
+  },
+  {
+    "name": "iashlpr",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "icm32",
     "totalCount": 21,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "icmui",
     "totalCount": 2,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "icu",
     "totalCount": 969,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "icuin",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "icuuc",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "iepmapi",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "iesetup",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "imagehlp",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "imgutil",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "imm32",
     "totalCount": 82,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
+  },
+  {
+    "name": "infocardapi",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "inkobjcore",
     "totalCount": 27,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "inseng",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "int64",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "iphlpapi",
     "totalCount": 196,
-    "polyfillCount": 91
+    "polyfillCount": 91,
+    "hasLib": true
+  },
+  {
+    "name": "iprop",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "iscsidsc",
     "totalCount": 79,
-    "polyfillCount": 77
+    "polyfillCount": 77,
+    "hasLib": true
+  },
+  {
+    "name": "isolatedwindowsenvironmentutils",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "jetoledb",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "jsrt",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "kerbcli",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "kernel32",
     "totalCount": 1319,
-    "polyfillCount": 433
+    "polyfillCount": 433,
+    "hasLib": true
+  },
+  {
+    "name": "kernel32legacylib",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "keycredmgr",
     "totalCount": 4,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "ksproxy",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "ksuser",
     "totalCount": 8,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "ktmw32",
     "totalCount": 39,
-    "polyfillCount": 39
+    "polyfillCount": 39,
+    "hasLib": true
   },
   {
     "name": "loadperf",
     "totalCount": 12,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "locationapi",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "lz32",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "magnification",
     "totalCount": 19,
-    "polyfillCount": 19
+    "polyfillCount": 19,
+    "hasLib": true
   },
   {
     "name": "mapi32",
     "totalCount": 1,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "mbnapi_uuid",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "mciole32",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "mdmlocalmanagement",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "mdmregistration",
     "totalCount": 12,
-    "polyfillCount": 11
+    "polyfillCount": 11,
+    "hasLib": true
   },
   {
     "name": "mf",
     "totalCount": 62,
-    "polyfillCount": 61
+    "polyfillCount": 61,
+    "hasLib": true
   },
   {
     "name": "mfcore",
     "totalCount": 2,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "mfplat",
     "totalCount": 144,
-    "polyfillCount": 144
+    "polyfillCount": 144,
+    "hasLib": true
   },
   {
     "name": "mfplay",
     "totalCount": 1,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
   },
   {
     "name": "mfreadwrite",
     "totalCount": 5,
-    "polyfillCount": 5
+    "polyfillCount": 5,
+    "hasLib": true
   },
   {
     "name": "mfsensorgroup",
     "totalCount": 6,
-    "polyfillCount": 5
+    "polyfillCount": 5,
+    "hasLib": true
   },
   {
     "name": "mfsrcsnk",
     "totalCount": 2,
-    "polyfillCount": 2
+    "polyfillCount": 2,
+    "hasLib": true
+  },
+  {
+    "name": "mfuuid",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "mgmtapi",
     "totalCount": 9,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "mi",
     "totalCount": 1,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
+  },
+  {
+    "name": "mincore",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "mincore_downlevel",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "mmc",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "mmdevapi",
     "totalCount": 1,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
   },
   {
     "name": "mpr",
     "totalCount": 47,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "mprapi",
     "totalCount": 112,
-    "polyfillCount": 14
+    "polyfillCount": 14,
+    "hasLib": true
+  },
+  {
+    "name": "mprsnap",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "mqoa",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "mqrt",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "mrmsupport",
     "totalCount": 24,
-    "polyfillCount": 4
+    "polyfillCount": 4,
+    "hasLib": true
+  },
+  {
+    "name": "msaatext",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "msacm32",
     "totalCount": 42,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "msajapi",
     "totalCount": 547,
-    "polyfillCount": 6
+    "polyfillCount": 6,
+    "hasLib": true
   },
   {
     "name": "mscms",
     "totalCount": 89,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "msctfmonitor",
     "totalCount": 3,
-    "polyfillCount": 2
+    "polyfillCount": 2,
+    "hasLib": true
+  },
+  {
+    "name": "msdasc",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "msdelta",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "msdmo",
     "totalCount": 11,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "msdrm",
     "totalCount": 84,
-    "polyfillCount": 4
+    "polyfillCount": 4,
+    "hasLib": true
   },
   {
     "name": "msi",
     "totalCount": 264,
-    "polyfillCount": 264
+    "polyfillCount": 264,
+    "hasLib": true
   },
   {
     "name": "msimg32",
     "totalCount": 3,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "mspatcha",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "mspatchc",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "mspbase",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "msports",
     "totalCount": 7,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "msrating",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "mstask",
     "totalCount": 2,
-    "polyfillCount": 2
+    "polyfillCount": 2,
+    "hasLib": true
+  },
+  {
+    "name": "msv1_0",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "msvfw32",
     "totalCount": 43,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "mswsock",
     "totalCount": 16,
-    "polyfillCount": 3
+    "polyfillCount": 3,
+    "hasLib": true
+  },
+  {
+    "name": "msxml2",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "msxml6",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "mtx",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "mtxdm",
     "totalCount": 1,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "muiload",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "nanosrv",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "ncrypt",
     "totalCount": 39,
-    "polyfillCount": 38
+    "polyfillCount": 38,
+    "hasLib": true
+  },
+  {
+    "name": "nddeapi",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "ndfapi",
     "totalCount": 16,
-    "polyfillCount": 16
+    "polyfillCount": 16,
+    "hasLib": true
+  },
+  {
+    "name": "ndproxystub",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "netapi32",
     "totalCount": 191,
-    "polyfillCount": 64
+    "polyfillCount": 64,
+    "hasLib": true
+  },
+  {
+    "name": "netlib",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "netsh",
     "totalCount": 8,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "newdev",
     "totalCount": 11,
-    "polyfillCount": 7
+    "polyfillCount": 7,
+    "hasLib": true
   },
   {
     "name": "ninput",
     "totalCount": 30,
-    "polyfillCount": 23
+    "polyfillCount": 23,
+    "hasLib": true
   },
   {
     "name": "normaliz",
     "totalCount": 2,
-    "polyfillCount": 2
+    "polyfillCount": 2,
+    "hasLib": true
+  },
+  {
+    "name": "nt",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "ntdll",
     "totalCount": 86,
-    "polyfillCount": 20
+    "polyfillCount": 20,
+    "hasLib": true
+  },
+  {
+    "name": "ntdsa",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "ntdsapi",
     "totalCount": 81,
-    "polyfillCount": 81
+    "polyfillCount": 81,
+    "hasLib": true
+  },
+  {
+    "name": "ntdsatq",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "ntdsetup",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "ntfrsapi",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "ntlanman",
     "totalCount": 9,
-    "polyfillCount": 2
+    "polyfillCount": 2,
+    "hasLib": true
+  },
+  {
+    "name": "ntmarta",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "ntquery",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "ntstc_libcmt",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "ntstc_msvcrt",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "ntvdm",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "objsel",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "odbc32",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "odbcbcp",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "odbccp32",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "oemlicense",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "ole32",
     "totalCount": 319,
-    "polyfillCount": 6
+    "polyfillCount": 6,
+    "hasLib": true
   },
   {
     "name": "oleacc",
     "totalCount": 17,
-    "polyfillCount": 2
+    "polyfillCount": 2,
+    "hasLib": true
   },
   {
     "name": "oleaut32",
     "totalCount": 405,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "olecli32",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "oledb",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "oledlg",
     "totalCount": 23,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "olepro32",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "olesvr32",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "ondemandconnroutehelper",
     "totalCount": 5,
-    "polyfillCount": 5
+    "polyfillCount": 5,
+    "hasLib": true
+  },
+  {
+    "name": "onecore",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "onecore_apiset",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "onecore_downlevel",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "onecoreuap",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "onecoreuap_apiset",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "onecoreuap_downlevel",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "opengl32",
     "totalCount": 19,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "opmxbox",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "osptk",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "p2p",
     "totalCount": 108,
-    "polyfillCount": 42
+    "polyfillCount": 42,
+    "hasLib": true
   },
   {
     "name": "p2pgraph",
     "totalCount": 37,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "patchwiz",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "pathcch",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "pdh",
     "totalCount": 98,
-    "polyfillCount": 5
+    "polyfillCount": 5,
+    "hasLib": true
   },
   {
     "name": "peerdist",
     "totalCount": 28,
-    "polyfillCount": 28
+    "polyfillCount": 28,
+    "hasLib": true
+  },
+  {
+    "name": "photoacquireuid",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "portabledeviceguids",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "powrprof",
     "totalCount": 84,
-    "polyfillCount": 61
+    "polyfillCount": 61,
+    "hasLib": true
   },
   {
     "name": "prntvpt",
     "totalCount": 11,
-    "polyfillCount": 2
+    "polyfillCount": 2,
+    "hasLib": true
   },
   {
     "name": "projectedfslib",
     "totalCount": 19,
-    "polyfillCount": 19
+    "polyfillCount": 19,
+    "hasLib": true
   },
   {
     "name": "propsys",
     "totalCount": 218,
-    "polyfillCount": 41
+    "polyfillCount": 41,
+    "hasLib": true
   },
   {
     "name": "psapi",
     "totalCount": 0,
-    "polyfillCount": 3
+    "polyfillCount": 3,
+    "hasLib": true
   },
   {
     "name": "quartz",
     "totalCount": 2,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "query",
     "totalCount": 4,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "qwave",
     "totalCount": 11,
-    "polyfillCount": 11
+    "polyfillCount": 11,
+    "hasLib": true
   },
   {
     "name": "rasapi32",
     "totalCount": 84,
-    "polyfillCount": 2
+    "polyfillCount": 2,
+    "hasLib": true
   },
   {
     "name": "rasdlg",
     "totalCount": 6,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "rasuser",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "resutils",
     "totalCount": 119,
-    "polyfillCount": 106
+    "polyfillCount": 106,
+    "hasLib": true
   },
   {
     "name": "rometadata",
     "totalCount": 1,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
+  },
+  {
+    "name": "rpcexts",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "rpcns4",
     "totalCount": 61,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "rpcproxy",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "rpcrt4",
     "totalCount": 446,
-    "polyfillCount": 17
+    "polyfillCount": 17,
+    "hasLib": true
+  },
+  {
+    "name": "rpcutil",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "rstrtmgr",
     "totalCount": 11,
-    "polyfillCount": 11
+    "polyfillCount": 11,
+    "hasLib": true
   },
   {
     "name": "rtm",
     "totalCount": 75,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "rtutils",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "rtworkq",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "runtimeobject",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "samlib",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "samsrv",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "sapi",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "sas",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "sbtsv",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "scarddlg",
     "totalCount": 5,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "scecli",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "scesrv",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "schannel",
     "totalCount": 8,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
+  },
+  {
+    "name": "scrnsave",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "scrnsavw",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "searchsdk",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "secur32",
     "totalCount": 89,
-    "polyfillCount": 29
+    "polyfillCount": 29,
+    "hasLib": true
+  },
+  {
+    "name": "security",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "sens",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "sensapi",
     "totalCount": 3,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "sensorsapi",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "sensorsutils",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "setupapi",
     "totalCount": 334,
-    "polyfillCount": 22
+    "polyfillCount": 22,
+    "hasLib": true
   },
   {
     "name": "sfc",
     "totalCount": 6,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
+  },
+  {
+    "name": "shcore",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "shdocvw",
     "totalCount": 3,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "shell32",
     "totalCount": 243,
-    "polyfillCount": 54
+    "polyfillCount": 54,
+    "hasLib": true
+  },
+  {
+    "name": "shfolder",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "shlwapi",
     "totalCount": 360,
-    "polyfillCount": 20
+    "polyfillCount": 20,
+    "hasLib": true
   },
   {
     "name": "slc",
     "totalCount": 32,
-    "polyfillCount": 32
+    "polyfillCount": 32,
+    "hasLib": true
   },
   {
     "name": "slcext",
     "totalCount": 4,
-    "polyfillCount": 4
+    "polyfillCount": 4,
+    "hasLib": true
   },
   {
     "name": "slwga",
     "totalCount": 1,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
   },
   {
     "name": "snmpapi",
     "totalCount": 26,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "spoolss",
     "totalCount": 26,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "sporder",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "srclient",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "srpapi",
     "totalCount": 9,
-    "polyfillCount": 9
+    "polyfillCount": 9,
+    "hasLib": true
+  },
+  {
+    "name": "ssdpapi",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "sspicli",
@@ -1185,74 +2372,220 @@
     "polyfillCount": 2
   },
   {
+    "name": "sti",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "strmbase",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "strmiids",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "strsafe",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "structuredquery",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "svcguid",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "swdevice",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "synchronization",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
     "name": "t2embed",
     "totalCount": 14,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "tapi32",
     "totalCount": 249,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "tapi32l",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "taskschd",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "tbs",
     "totalCount": 13,
-    "polyfillCount": 10
+    "polyfillCount": 10,
+    "hasLib": true
   },
   {
     "name": "tdh",
     "totalCount": 26,
-    "polyfillCount": 24
+    "polyfillCount": 24,
+    "hasLib": true
+  },
+  {
+    "name": "thunk32",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "tokenbinding",
     "totalCount": 10,
-    "polyfillCount": 8
+    "polyfillCount": 8,
+    "hasLib": true
   },
   {
     "name": "traffic",
     "totalCount": 20,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "transcodeimageuid",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "tsec",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "tspubplugincom",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "twain_32",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "twinapi",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "txfw32",
     "totalCount": 9,
-    "polyfillCount": 3
+    "polyfillCount": 3,
+    "hasLib": true
   },
   {
     "name": "ualapi",
     "totalCount": 4,
-    "polyfillCount": 4
+    "polyfillCount": 4,
+    "hasLib": true
   },
   {
     "name": "uiautomationcore",
     "totalCount": 98,
-    "polyfillCount": 17
+    "polyfillCount": 17,
+    "hasLib": true
+  },
+  {
+    "name": "umpdddi",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "unicows",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "urlmon",
     "totalCount": 77,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "user32",
     "totalCount": 757,
-    "polyfillCount": 140
+    "polyfillCount": 140,
+    "hasLib": true
   },
   {
     "name": "userenv",
     "totalCount": 44,
-    "polyfillCount": 25
+    "polyfillCount": 25,
+    "hasLib": true
   },
   {
     "name": "usp10",
     "totalCount": 40,
-    "polyfillCount": 9
+    "polyfillCount": 9,
+    "hasLib": true
+  },
+  {
+    "name": "uuid",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "uxtheme",
     "totalCount": 74,
-    "polyfillCount": 74
+    "polyfillCount": 74,
+    "hasLib": true
+  },
+  {
+    "name": "vccomsup",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "vdmdbg",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "vds_uuid",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "verifier",
@@ -1262,102 +2595,200 @@
   {
     "name": "version",
     "totalCount": 14,
-    "polyfillCount": 4
+    "polyfillCount": 4,
+    "hasLib": true
   },
   {
     "name": "vertdll",
     "totalCount": 3,
-    "polyfillCount": 3
+    "polyfillCount": 3,
+    "hasLib": true
+  },
+  {
+    "name": "vfw32",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "virtdisk",
     "totalCount": 29,
-    "polyfillCount": 26
+    "polyfillCount": 26,
+    "hasLib": true
+  },
+  {
+    "name": "vmdevicehost",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "vmsavedstatedumpprovider",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "vscmgr",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "vss_uuid",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "vssapi",
     "totalCount": 1,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
+  },
+  {
+    "name": "vstorinterface",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "wbemuuid",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "wcmapi",
     "totalCount": 5,
-    "polyfillCount": 5
+    "polyfillCount": 5,
+    "hasLib": true
+  },
+  {
+    "name": "wcmguid",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "wdsbp",
     "totalCount": 7,
-    "polyfillCount": 7
+    "polyfillCount": 7,
+    "hasLib": true
   },
   {
     "name": "wdsclientapi",
     "totalCount": 37,
-    "polyfillCount": 33
+    "polyfillCount": 33,
+    "hasLib": true
   },
   {
     "name": "wdsmc",
     "totalCount": 6,
-    "polyfillCount": 6
+    "polyfillCount": 6,
+    "hasLib": true
   },
   {
     "name": "wdspxe",
     "totalCount": 31,
-    "polyfillCount": 30
+    "polyfillCount": 30,
+    "hasLib": true
   },
   {
     "name": "wdstptc",
     "totalCount": 13,
-    "polyfillCount": 12
+    "polyfillCount": 12,
+    "hasLib": true
   },
   {
     "name": "webauthn",
     "totalCount": 10,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "webservices",
     "totalCount": 193,
-    "polyfillCount": 193
+    "polyfillCount": 193,
+    "hasLib": true
   },
   {
     "name": "websocket",
     "totalCount": 13,
-    "polyfillCount": 13
+    "polyfillCount": 13,
+    "hasLib": true
   },
   {
     "name": "wecapi",
     "totalCount": 15,
-    "polyfillCount": 15
+    "polyfillCount": 15,
+    "hasLib": true
   },
   {
     "name": "wer",
     "totalCount": 21,
-    "polyfillCount": 15
+    "polyfillCount": 15,
+    "hasLib": true
   },
   {
     "name": "wevtapi",
     "totalCount": 35,
-    "polyfillCount": 35
+    "polyfillCount": 35,
+    "hasLib": true
+  },
+  {
+    "name": "wiaguid",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "wiaservc",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "wiautil",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "winbio",
     "totalCount": 52,
-    "polyfillCount": 52
+    "polyfillCount": 52,
+    "hasLib": true
   },
   {
     "name": "windows.ai.machinelearning",
     "totalCount": 1,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "windows.data.pdf",
     "totalCount": 1,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "windows.media.mediacontrol",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "windows.networking",
     "totalCount": 1,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
+  },
+  {
+    "name": "windows.ui",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "windows.ui.xaml",
@@ -1365,153 +2796,339 @@
     "polyfillCount": 1
   },
   {
+    "name": "windowsapp",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "windowsapp_downlevel",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
     "name": "windowscodecs",
     "totalCount": 9,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
+  },
+  {
+    "name": "windowscoreheadless",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "windowscoreheadless_apiset",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "windowssideshowguids",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "winfax",
     "totalCount": 56,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "winhttp",
     "totalCount": 47,
-    "polyfillCount": 11
+    "polyfillCount": 11,
+    "hasLib": true
   },
   {
     "name": "winhvemulation",
     "totalCount": 4,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "winhvplatform",
     "totalCount": 29,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "wininet",
     "totalCount": 296,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "winml",
     "totalCount": 1,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "winmm",
     "totalCount": 176,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "winsatapi",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "winscard",
     "totalCount": 70,
-    "polyfillCount": 14
+    "polyfillCount": 14,
+    "hasLib": true
   },
   {
     "name": "winspool",
     "totalCount": 171,
-    "polyfillCount": 3
+    "polyfillCount": 3,
+    "hasLib": true
+  },
+  {
+    "name": "winsqlite3",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "winsta",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "winstrm",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "wintrust",
     "totalCount": 60,
-    "polyfillCount": 5
+    "polyfillCount": 5,
+    "hasLib": true
   },
   {
     "name": "winusb",
     "totalCount": 34,
-    "polyfillCount": 11
+    "polyfillCount": 11,
+    "hasLib": true
   },
   {
     "name": "wlanapi",
     "totalCount": 60,
-    "polyfillCount": 55
+    "polyfillCount": 55,
+    "hasLib": true
   },
   {
     "name": "wlanui",
     "totalCount": 1,
-    "polyfillCount": 1
+    "polyfillCount": 1,
+    "hasLib": true
   },
   {
     "name": "wldap32",
     "totalCount": 243,
-    "polyfillCount": 240
+    "polyfillCount": 240,
+    "hasLib": true
   },
   {
     "name": "wldp",
     "totalCount": 5,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "wmcodecdspuuid",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "wmip",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "wmiutils",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "wmvcore",
     "totalCount": 11,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "wnvapi",
     "totalCount": 2,
-    "polyfillCount": 2
+    "polyfillCount": 2,
+    "hasLib": true
   },
   {
     "name": "wofutil",
     "totalCount": 11,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "workspaceax",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "wow32",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "ws2_32",
     "totalCount": 159,
-    "polyfillCount": 125
+    "polyfillCount": 125,
+    "hasLib": true
+  },
+  {
+    "name": "wsbapp_uuid",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "wsbonline",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "wscapi",
     "totalCount": 6,
-    "polyfillCount": 3
+    "polyfillCount": 3,
+    "hasLib": true
   },
   {
     "name": "wsclient",
     "totalCount": 3,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "wsdapi",
     "totalCount": 32,
-    "polyfillCount": 32
+    "polyfillCount": 32,
+    "hasLib": true
   },
   {
     "name": "wsmsvc",
     "totalCount": 33,
-    "polyfillCount": 31
+    "polyfillCount": 31,
+    "hasLib": true
   },
   {
     "name": "wsnmp32",
     "totalCount": 49,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "wsock32",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "wtsapi32",
     "totalCount": 63,
-    "polyfillCount": 63
+    "polyfillCount": 63,
+    "hasLib": true
+  },
+  {
+    "name": "wuguid",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "xapobase",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "xapobase2_8",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "xaswitch",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "xaudio2",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "xaudio2_8",
     "totalCount": 4,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "xinput",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "xinput9_1_0",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "xinputuap",
     "totalCount": 7,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
   },
   {
     "name": "xmllite",
     "totalCount": 6,
-    "polyfillCount": 0
+    "polyfillCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "xolehlp",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
+  },
+  {
+    "name": "xpsdocumenttargetprint",
+    "polyfillCount": 0,
+    "totalCount": 0,
+    "hasLib": true
   },
   {
     "name": "xpsprint",
     "totalCount": 2,
-    "polyfillCount": 2
+    "polyfillCount": 2,
+    "hasLib": true
   }
 ]
