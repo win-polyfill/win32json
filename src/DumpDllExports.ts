@@ -163,25 +163,53 @@ interface DumpBinaryItem {
   name: string
   path: string
   suffix: string
+  args: string[]
   dump: Record<string, string[]>
 }
 
 export async function DumpBinaryForItem(
   filesToDump: DumpBinaryItem[],
   dllImportItem: DllImportItem,
-  dumpArgs: string[],
 ): Promise<void> {
   const promises: Promise<string[]>[] = []
   filesToDump.forEach((item: DumpBinaryItem) => {
     ArchList.forEach((arch) => {
       const promiseDump = DumpBin(
         path.join(item.path, arch, dllImportItem.name + item.suffix),
-        dumpArgs,
+        item.args,
       ).then((x) => (item.dump[arch] = x))
       promises.push(promiseDump)
     })
   })
   await Promise.all(promises)
+}
+
+export async function DumpBinarySdkFiles(
+  rootDir: string,
+  dllImportList: DllImportItem[],
+): Promise<void> {
+  const dumpList = []
+  for (const dllImportItem of dllImportList) {
+    const dumpItem: DumpBinaryItem[] = [
+      {
+        name: 'Win10Sdk',
+        path: Win10SdkDirLib,
+        suffix: '.lib',
+        args: ['/ALL', '/RAWDATA:NONE'],
+        dump: {},
+      },
+    ]
+    await DumpBinaryForItem(dumpItem, dllImportItem)
+    dumpList.push({
+      name: dllImportItem.name,
+      hasLib: dllImportItem.hasLib,
+      dump: dumpItem,
+    })
+    console.log(`Dumped lib for ${dllImportItem.name}`)
+  }
+  const libDumpsPath = path.join(rootDir, `win-polyfill-lib-dumps.json.txt`)
+  await fs.writeFile(libDumpsPath, JSON.stringify(dumpList, null, 2))
+  console.log(`Dump lib done`)
 }
 
 export async function DumpBinaryFiles(
@@ -190,40 +218,34 @@ export async function DumpBinaryFiles(
 ): Promise<void> {
   const dumpList = []
   for (const dllImportItem of dllImportList) {
-    const dumpItem = [
-      {
-        name: 'Win10Sdk',
-        path: Win10SdkDirLib,
-        suffix: '.lib',
-        dump: {},
-      },
+    const dumpItem: DumpBinaryItem[] = [
       {
         name: 'Win2000Sp4',
         path: Win2000Sp4DirDll,
         suffix: '.dll',
+        args: ['/EXPORTS'],
         dump: {},
       },
       {
         name: 'Win10Rtm',
         path: Win10RtmDirDll,
         suffix: '.dll',
+        args: ['/EXPORTS'],
         dump: {},
       },
     ]
-    await DumpBinaryForItem(dumpItem, dllImportItem, ['/ALL', '/RAWDATA:NONE'])
+    await DumpBinaryForItem(dumpItem, dllImportItem)
     dumpList.push({
       name: dllImportItem.name,
       hasLib: dllImportItem.hasLib,
       dump: dumpItem,
     })
-    console.log(`Dumped for ${dllImportItem.name}`)
+    console.log(`Dumped dll for ${dllImportItem.name}`)
   }
 
-  const win10SdkLibExportsFile = path.join(
-    rootDir,
-    `win-polyfill-lib-dll-dumps.txt`,
-  )
-  await fs.writeFile(win10SdkLibExportsFile, JSON.stringify(dumpList, null, 2))
+  const dllDumpsPath = path.join(rootDir, `win-polyfill-dll-dumps.json.txt`)
+  await fs.writeFile(dllDumpsPath, JSON.stringify(dumpList, null, 2))
+  console.log(`Dump dll done`)
 }
 
 // d3dcompiler.lib
@@ -242,6 +264,7 @@ export async function DumpDllExports(rootDir: string): Promise<void> {
   )
   */
 
+  DumpBinarySdkFiles(rootDir, dllImportList)
   DumpBinaryFiles(rootDir, dllImportList)
 }
 
