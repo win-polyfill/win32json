@@ -162,28 +162,24 @@ interface DumpBinaryItem {
   name: string
   path: string
   suffix: string
-  exports?: string[]
-  symbols?: string[]
+  dump: Record<string, string[]>
 }
 
 export async function DumpBinaryForItem(
   filesToDump: DumpBinaryItem[],
   dllImportItem: DllImportItem,
-  arch: string,
+  saveKey: string,
+  dumpArgs: string[],
 ): Promise<void> {
   const promises: Promise<string[]>[] = []
   filesToDump.forEach((item: DumpBinaryItem) => {
-    const promiseExports = DumpBin(
-      path.join(item.path, arch, dllImportItem.name + item.suffix),
-      ['/EXPORTS'],
-    ).then((x) => (item.exports = x))
-    promises.push(promiseExports)
-
-    const promiseSymbols = DumpBin(
-      path.join(item.path, arch, dllImportItem.name + item.suffix),
-      ['/SYMBOLS'],
-    ).then((x) => (item.symbols = x))
-    promises.push(promiseSymbols)
+    ArchList.forEach((arch) => {
+      const promiseDump = DumpBin(
+        path.join(item.path, arch, dllImportItem.name + item.suffix),
+        dumpArgs,
+      ).then((x) => (item.dump[`${saveKey}_${arch}`] = x))
+      promises.push(promiseDump)
+    })
   })
   await Promise.all(promises)
 }
@@ -192,38 +188,36 @@ export async function DumpBinaryFiles(
   rootDir: string,
   dllImportList: DllImportItem[],
 ): Promise<void> {
-  const allDump = []
-  for (const arch of ArchList) {
-    const dumpListForArch = []
-    for (const dllImportItem of dllImportList) {
-      const dumpItem = [
-        {
-          name: 'Win10Sdk',
-          path: Win10SdkDirLib,
-          suffix: '.lib',
-        },
-        {
-          name: 'Win200Sp4',
-          path: Win200Sp4DirDll,
-          suffix: '.dll',
-        },
-      ]
-      await DumpBinaryForItem(dumpItem, dllImportItem, arch)
-      dumpListForArch.push({
-        name: dllImportItem.name,
-        hasLib: dllImportItem.hasLib,
-        dumpItem: dumpItem,
-      })
-      console.log(`Dumped for ${arch} ${dllImportItem.name}`)
-    }
-    allDump.push({ arch, dumpList: dumpListForArch })
+  const dumpList = []
+  for (const dllImportItem of dllImportList) {
+    const dumpItem = [
+      {
+        name: 'Win10Sdk',
+        path: Win10SdkDirLib,
+        suffix: '.lib',
+        dump: {},
+      },
+      {
+        name: 'Win200Sp4',
+        path: Win200Sp4DirDll,
+        suffix: '.dll',
+        dump: {},
+      },
+    ]
+    await DumpBinaryForItem(dumpItem, dllImportItem, 'exports', ['/EXPORTS'])
+    dumpList.push({
+      name: dllImportItem.name,
+      hasLib: dllImportItem.hasLib,
+      dump: dumpItem,
+    })
+    console.log(`Dumped for ${dllImportItem.name}`)
   }
 
   const win10SdkLibExportsFile = path.join(
     rootDir,
     `win-polyfill-lib-dll-dumps.txt`,
   )
-  await fs.writeFile(win10SdkLibExportsFile, JSON.stringify(allDump, null, 2))
+  await fs.writeFile(win10SdkLibExportsFile, JSON.stringify(dumpList, null, 2))
 }
 
 // d3dcompiler.lib
