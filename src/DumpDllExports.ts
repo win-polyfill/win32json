@@ -15,68 +15,98 @@ interface DllImportItem extends DllImportStat {
 }
 
 const WinPolyfillRoot = 'C:/work/win-polyfill/'
-const DumpbinX86 =
-  'C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/dumpbin.exe'
-const dumpDllWorkDir = path.join(WinPolyfillRoot, 'tmp')
-const Win200Sp4DirRaw = path.join(WinPolyfillRoot, 'Windows2000-SP4')
+const Dumpbin =
+  'C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64/dumpbin.exe'
+export const dumpDllWorkDir = path.join(WinPolyfillRoot, 'tmp')
+export const Win200Sp4DirRaw = path.join(WinPolyfillRoot, 'Windows2000-SP4')
 const Win200Sp4DirDll = path.join(WinPolyfillRoot, 'Windows2000-SP4-Dll')
 const Win10SdkDir = 'C:/Program Files (x86)/Windows Kits/10/'
 const Win10SdkVersion = '10.0.19041.0'
 const Win10SdkDirLib = path.join(Win10SdkDir, `Lib/${Win10SdkVersion}/um`)
-export async function DumpDllExtractWin2000Sp4(
-  dllImportItem: DllImportItem,
-): Promise<void> {
-  const CabPath = path.join(
-    Win200Sp4DirRaw,
-    dllImportItem.name.toUpperCase() + '.DL_',
-  )
+
+export async function tryCreateLink(
+  sourcePath: string,
+  targetPath: string,
+): Promise<boolean> {
   try {
-    await fs.access(CabPath)
-    const targetCabPath = path.join(dumpDllWorkDir, dllImportItem.name + '.cab')
+    await fs.access(sourcePath)
     try {
-      await fs.unlink(targetCabPath)
-    } catch (error) {
-      console.log('make sure  unlinked')
+      await fs.unlink(targetPath)
+    } catch (error) {}
+    await fs.link(sourcePath, targetPath)
+    return true
+  } catch (e) {
+    return false
+  }
+}
+export async function DumpDllExtract(
+  sourceDir: string,
+  targetDir: string,
+  dllImportList: DllImportItem[],
+): Promise<void> {
+  for (const dllImportItem of dllImportList) {
+    const CabPath = path.join(sourceDir, dllImportItem.name + '.DL_')
+    const targetCabPath = path.join(targetDir, dllImportItem.name + '.cab')
+    if (await tryCreateLink(CabPath, targetCabPath)) {
+      continue
     }
-    await fs.link(CabPath, targetCabPath)
-  } catch (error) {
-    console.log(`no ${CabPath}`)
+    const DllPath = path.join(sourceDir, dllImportItem.name + '.dll')
+    const targetDllPath = path.join(targetDir, dllImportItem.name + '.dll')
+    if (await tryCreateLink(DllPath, targetDllPath)) {
+      continue
+    }
+    console.log(`no ${CabPath} and ${DllPath}`)
   }
 }
-const ArchList = ['x86', 'x64', 'arm64', 'arm']
 
-type ArchType = 'x86' | 'x64' | 'arm64' | 'arm'
-async function DumpLibExportsWin10(
-  dllImportItem: DllImportItem,
-  arch: ArchType,
-) {
-  const libPath = path.join(Win10SdkDirLib, arch, dllImportItem.name + '.lib')
-  try {
-    await fs.access(libPath)
-    const result = cp.spawnSync(DumpbinX86, ['/EXPORTS', libPath], {
-      encoding: 'latin1',
-    }).stdout
-    return result
-  } catch (error) {
-    console.log(`no ${libPath}`)
-  }
-  return undefined
+// const ArchList = ['x86', 'x64', 'arm64', 'arm']
+
+const ArchList = ['x86']
+
+export type ArchType = 'x86' | 'x64' | 'arm64' | 'arm'
+
+export default function spawnAsync(
+  commmand: string,
+  args: string[],
+  options: cp.SpawnOptions,
+): Promise<cp.SpawnSyncReturns<Buffer>> {
+  // *** Return the promise
+  return new Promise(function (resolve, reject) {
+    const process = cp.spawn(commmand, args, options)
+    const chunksStdout: Buffer[] = []
+    const chunksStderr: Buffer[] = []
+    process.stdout?.on('data', (chunk) => chunksStdout.push(chunk))
+    process.stderr?.on('data', (chunk) => chunksStderr.push(chunk))
+    process.on('close', function (code) {
+      // Should probably be 'exit', not 'close'
+      // *** Process completed
+      resolve({
+        pid: process.pid ?? -1,
+        status: code,
+        stdout: Buffer.concat(chunksStdout),
+        stderr: Buffer.concat(chunksStderr),
+        signal: process.signalCode,
+        output: [],
+      })
+    })
+    process.on('error', function (err) {
+      // *** Process creation failed
+      reject(err)
+    })
+  })
 }
 
-export async function DumpDllExportsWin2000Sp4(
-  dllImportItem: DllImportItem,
-): Promise<string | undefined> {
-  const dllPath = path.join(Win200Sp4DirDll, dllImportItem.name + '.dll')
+export async function DumpBin(
+  binPath: string,
+  args: string[],
+): Promise<string[]> {
   try {
-    await fs.access(dllPath)
-    const result = cp.spawnSync(DumpbinX86, ['/EXPORTS', dllPath], {
-      encoding: 'latin1',
-    }).stdout
-    return result
+    const result = (await spawnAsync(Dumpbin, [...args, binPath], {})).stdout
+    return result.toString('latin1')?.split('\r\n') ?? []
   } catch (error) {
-    console.log(`no ${dllPath}`)
+    console.log(`no ${binPath}`)
   }
-  return undefined
+  return []
 }
 
 export async function UpdateDllExports(
@@ -128,18 +158,81 @@ export async function updateWinSdkLib(
   )
 }
 
+interface DumpBinaryItem {
+  name: string
+  path: string
+  suffix: string
+  exports?: string[]
+  symbols?: string[]
+}
+
+export async function DumpBinaryForItem(
+  filesToDump: DumpBinaryItem[],
+  dllImportItem: DllImportItem,
+  arch: string,
+): Promise<void> {
+  const promises: Promise<string[]>[] = []
+  filesToDump.forEach((item: DumpBinaryItem) => {
+    const promiseExports = DumpBin(
+      path.join(item.path, arch, dllImportItem.name + item.suffix),
+      ['/EXPORTS'],
+    ).then((x) => (item.exports = x))
+    promises.push(promiseExports)
+
+    const promiseSymbols = DumpBin(
+      path.join(item.path, arch, dllImportItem.name + item.suffix),
+      ['/SYMBOLS'],
+    ).then((x) => (item.symbols = x))
+    promises.push(promiseSymbols)
+  })
+  await Promise.all(promises)
+}
+
+export async function DumpBinaryFiles(
+  rootDir: string,
+  dllImportList: DllImportItem[],
+): Promise<void> {
+  const allDump = []
+  for (const arch of ArchList) {
+    const dumpListForArch = []
+    for (const dllImportItem of dllImportList) {
+      const dumpItem = [
+        {
+          name: 'Win10Sdk',
+          path: Win10SdkDirLib,
+          suffix: '.lib',
+        },
+        {
+          name: 'Win200Sp4',
+          path: Win200Sp4DirDll,
+          suffix: '.dll',
+        },
+      ]
+      await DumpBinaryForItem(dumpItem, dllImportItem, arch)
+      dumpListForArch.push({
+        name: dllImportItem.name,
+        hasLib: dllImportItem.hasLib,
+        dumpItem: dumpItem,
+      })
+      console.log(`Dumped for ${arch} ${dllImportItem.name}`)
+    }
+    allDump.push({ arch, dumpList: dumpListForArch })
+  }
+
+  const win10SdkLibExportsFile = path.join(
+    rootDir,
+    `win-polyfill-lib-dll-dumps.txt`,
+  )
+  await fs.writeFile(win10SdkLibExportsFile, JSON.stringify(allDump, null, 2))
+}
+
 // d3dcompiler.lib
 export async function DumpDllExports(rootDir: string): Promise<void> {
   const dllImportList = (await readJson(
     path.join(rootDir, 'win-polyfill-dll-list.json'),
   )) as DllImportItem[]
-  updateWinSdkLib(rootDir, dllImportList)
-  return
-  const allResult = []
-  for (const dllImportItem of dllImportList) {
-    const resultWin10Lib = await DumpLibExportsWin10(dllImportItem)
-    // const result = await DumpDllExportsWin2000Sp4(dllImportItem)
-    allResult.push(resultWin10Lib)
-  }
-  console.log(allResult.length)
+  // updateWinSdkLib(rootDir, dllImportList)
+  // DumpDllExtract(Win200Sp4DirRaw, dumpDllWorkDir, dllImportList)
+
+  DumpBinaryFiles(rootDir, dllImportList)
 }
