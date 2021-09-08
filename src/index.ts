@@ -109,7 +109,7 @@ function updateDllImportStat(
   }
 }
 
-export async function polyfillAll(): Promise<void> {
+export async function createPolyfillDllList(): Promise<void> {
   const platformList = (await readJson(
     path.join(rootDir, 'platform-set.json'),
   )) as PlatformInfo[]
@@ -238,8 +238,8 @@ export async function polyfillAll(): Promise<void> {
 }
 
 async function start() {
-  // await polyfillAll()
-  await DumpDllExports(rootDir)
+  await createPolyfillDllList()
+  // await DumpDllExports(rootDir)
   // ExtractWinApi(rootDir)
 }
 

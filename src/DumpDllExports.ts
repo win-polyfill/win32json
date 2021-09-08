@@ -268,7 +268,7 @@ export async function DumpDllExports(rootDir: string): Promise<void> {
   const dllImportList = (await readJson(
     path.join(rootDir, 'win-polyfill-dll-list.json'),
   )) as DllImportItem[]
-  // updateWinSdkLib(rootDir, dllImportList)
+  updateWinSdkLib(rootDir, dllImportList)
   // DumpDllExtract(Win2000Sp4DirRaw, dumpDllWorkDir, dllImportList)
 
   /*
@@ -280,7 +280,7 @@ export async function DumpDllExports(rootDir: string): Promise<void> {
   */
 
   // DumpBinarySdkFiles(rootDir, dllImportList)
-  DumpBinaryFiles(rootDir, dllImportList)
+  // DumpBinaryFiles(rootDir, dllImportList)
 }
 
 // dumpbin /ALL /RAWDATA:NONE "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" >C:\work\out.txt
@@ -334,4 +334,14 @@ dumpbin        /FPO "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.
       /TLS
    dumpbin     /UNWINDINFO "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
 
- */
+
+      dumpbin     /UNWINDINFO "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib"  >C:\work\out-symbols.txt
+
+      dumpbin -LINKERMEMBER:1 -HEADERS -EXPORTS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\aclui.lib"
+
+      dumpbin -LINKERMEMBER:1 -HEADERS -EXPORTS -SYMBOLS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.lib" >out.txt
+
+      cd /d C:\work\
+      dumpbin -LINKERMEMBER:1 -HEADERS -EXPORTS -SYMBOLS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\aclui.lib" >out.txt
+      dumpbin -LINKERMEMBER:1 -HEADERS -EXPORTS -SYMBOLS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.lib" >out.txt
+    */

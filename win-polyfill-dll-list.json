@@ -1653,11 +1653,6 @@
     "hasLib": true
   },
   {
-    "name": "msvcrt",
-    "polyfillCount": 0,
-    "totalCount": 0
-  },
-  {
     "name": "msvfw32",
     "totalCount": 43,
     "polyfillCount": 0,

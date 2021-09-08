@@ -1,0 +1,82 @@
+[
+  {
+    "name": "msvcrt",
+    "polyfillCount": 0,
+    "totalCount": 0
+  },
+  {
+    "name": "xinput1_1",
+    "polyfillCount": 0,
+    "totalCount": 0
+  },
+  {
+    "name": "xinput1_2",
+    "polyfillCount": 0,
+    "totalCount": 0
+  },
+  {
+    "name": "xinput1_3",
+    "polyfillCount": 0,
+    "totalCount": 0
+  },
+  {
+    "name": "xinput1_4",
+    "polyfillCount": 0,
+    "totalCount": 0
+  },
+  {
+    "name": "xaudio2_0",
+    "polyfillCount": 0,
+    "totalCount": 0
+  },
+  {
+    "name": "xaudio2_1",
+    "polyfillCount": 0,
+    "totalCount": 0
+  },
+  {
+    "name": "xaudio2_2",
+    "polyfillCount": 0,
+    "totalCount": 0
+  },
+  {
+    "name": "xaudio2_3",
+    "polyfillCount": 0,
+    "totalCount": 0
+  },
+  {
+    "name": "xaudio2_3",
+    "polyfillCount": 0,
+    "totalCount": 0
+  },
+  {
+    "name": "xaudio2_4",
+    "polyfillCount": 0,
+    "totalCount": 0
+  },
+  {
+    "name": "xaudio2_5",
+    "polyfillCount": 0,
+    "totalCount": 0
+  },
+  {
+    "name": "xaudio2_6",
+    "polyfillCount": 0,
+    "totalCount": 0
+  },
+  {
+    "name": "xaudio2_7",
+    "polyfillCount": 0,
+    "totalCount": 0
+  },
+  {
+    "name": "xaudio2_8",
+    "polyfillCount": 0,
+    "totalCount": 0
+  },
+  {
+    "name": "xaudio2_9",
+    "polyfillCount": 0,
+    "totalCount": 0
+  }
+]

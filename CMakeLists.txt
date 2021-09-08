@@ -5,6 +5,7 @@ include(CTest)
 enable_testing()
 
 add_executable(win32json main.cpp)
+target_link_libraries(win32json aclui.lib)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
