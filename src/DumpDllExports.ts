@@ -1,19 +1,8 @@
 import { readJson } from './WinMetaUtil'
-import { ArchList } from './WinMetadata'
+import { ArchList, DllImportItem } from './WinMetadata'
 import fs from 'fs/promises'
 import cp from 'child_process'
 import path from 'path'
-
-interface DllImportStat {
-  totalCount: number
-  polyfillCount: number
-}
-
-interface DllImportItem extends DllImportStat {
-  name: string
-  hasDll?: boolean
-  hasLib?: boolean
-}
 
 const WinPolyfillRoot = 'C:/work/win-polyfill/'
 const Dumpbin =
@@ -141,17 +130,14 @@ export async function UpdateDllExports(
 export async function updateWinSdkLib(
   rootDir: string,
   dllImportList: DllImportItem[],
-): Promise<void> {
+): Promise<DllImportItem[]> {
   console.log(dllImportList.length)
   for (const arch of ArchList) {
     await UpdateDllExports(dllImportList, path.join(Win10SdkDirLib, arch))
   }
   console.log(dllImportList.length)
   dllImportList.sort((a, b) => a.name.localeCompare(b.name))
-  fs.writeFile(
-    path.join(rootDir, 'win-polyfill-dll-list.json'),
-    JSON.stringify(dllImportList, null, 2),
-  )
+  return dllImportList
 }
 
 interface DumpBinaryItem {
@@ -268,7 +254,7 @@ export async function DumpDllExports(rootDir: string): Promise<void> {
   const dllImportList = (await readJson(
     path.join(rootDir, 'win-polyfill-dll-list.json'),
   )) as DllImportItem[]
-  updateWinSdkLib(rootDir, dllImportList)
+  console.log(`DumpDllExports module count: ${dllImportList.length}`)
   // DumpDllExtract(Win2000Sp4DirRaw, dumpDllWorkDir, dllImportList)
 
   /*

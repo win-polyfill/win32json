@@ -1653,6 +1653,11 @@
     "hasLib": true
   },
   {
+    "name": "msvcrt",
+    "totalCount": 0,
+    "polyfillCount": 0
+  },
+  {
     "name": "msvfw32",
     "totalCount": 43,
     "polyfillCount": 0,
@@ -3084,16 +3089,81 @@
     "hasLib": true
   },
   {
+    "name": "xaudio2_0",
+    "totalCount": 0,
+    "polyfillCount": 0
+  },
+  {
+    "name": "xaudio2_1",
+    "totalCount": 0,
+    "polyfillCount": 0
+  },
+  {
+    "name": "xaudio2_2",
+    "totalCount": 0,
+    "polyfillCount": 0
+  },
+  {
+    "name": "xaudio2_3",
+    "totalCount": 0,
+    "polyfillCount": 0
+  },
+  {
+    "name": "xaudio2_4",
+    "totalCount": 0,
+    "polyfillCount": 0
+  },
+  {
+    "name": "xaudio2_5",
+    "totalCount": 0,
+    "polyfillCount": 0
+  },
+  {
+    "name": "xaudio2_6",
+    "totalCount": 0,
+    "polyfillCount": 0
+  },
+  {
+    "name": "xaudio2_7",
+    "totalCount": 0,
+    "polyfillCount": 0
+  },
+  {
     "name": "xaudio2_8",
     "totalCount": 4,
     "polyfillCount": 0,
     "hasLib": true
   },
   {
+    "name": "xaudio2_9",
+    "totalCount": 0,
+    "polyfillCount": 0
+  },
+  {
     "name": "xinput",
     "polyfillCount": 0,
     "totalCount": 0,
     "hasLib": true
+  },
+  {
+    "name": "xinput1_1",
+    "totalCount": 0,
+    "polyfillCount": 0
+  },
+  {
+    "name": "xinput1_2",
+    "totalCount": 0,
+    "polyfillCount": 0
+  },
+  {
+    "name": "xinput1_3",
+    "totalCount": 0,
+    "polyfillCount": 0
+  },
+  {
+    "name": "xinput1_4",
+    "totalCount": 0,
+    "polyfillCount": 0
   },
   {
     "name": "xinput9_1_0",

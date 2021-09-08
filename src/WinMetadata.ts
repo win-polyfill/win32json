@@ -54,3 +54,17 @@ export interface FunctionInfo {
 export interface WinMetaApi {
   Functions: FunctionInfo[]
 }
+
+export interface DllImportStat {
+  totalCount: number
+  polyfillCount: number
+}
+
+export interface DllImportWithName extends DllImportStat {
+  name: string
+}
+
+export interface DllImportItem extends DllImportWithName {
+  hasDll?: boolean
+  hasLib?: boolean
+}

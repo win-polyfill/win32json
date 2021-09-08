@@ -3,11 +3,13 @@ import path from 'path'
 import { normalizeDllImport, normalizePlatform, readJson } from './WinMetaUtil'
 import {
   ApiInformation,
+  DllImportStat,
+  DllImportWithName,
   FunctionInfo,
   PlatformInfo,
   WinMetaApi,
 } from './WinMetadata'
-import { DumpDllExports } from './DumpDllExports'
+import { DumpDllExports, updateWinSdkLib } from './DumpDllExports'
 import { ExtractWinApi } from './ExtractWinApi'
 
 const rootDir = path.join(__dirname, '..')
@@ -89,11 +91,6 @@ async function loadApiSet(p: string) {
   }
 }
 
-interface DllImportStat {
-  totalCount: number
-  polyfillCount: number
-}
-
 function updateDllImportStat(
   map: Map<string, DllImportStat>,
   DllImport: string,
@@ -147,7 +144,7 @@ export async function createPolyfillDllList(): Promise<void> {
     }
   }
 
-  const DllImportSet = new Map<string, DllImportStat>()
+  const DllImportSet = new Map<string, DllImportWithName>()
   for (const f of allFunctions) {
     const platform = normalizePlatform(f.Platform)
     const DllImport = normalizeDllImport(f.DllImport)
@@ -216,7 +213,16 @@ export async function createPolyfillDllList(): Promise<void> {
     path.join(rootDir, 'win-polyfill.json'),
     JSON.stringify(apiList, null, 2),
   )
-  const dllList = []
+  let dllList = []
+  const existDllList = (await readJson(
+    path.join(rootDir, 'win-polyfill-dll-list-manual.json'),
+  )) as DllImportWithName[]
+  for (const exitItem of existDllList) {
+    const normalName = exitItem.name.toLowerCase()
+    if (!DllImportSet.has(normalName)) {
+      DllImportSet.set(normalName, exitItem)
+    }
+  }
   const dllListSorted = Array.from(DllImportSet.entries()).sort()
   for (const [name, { totalCount, polyfillCount }] of dllListSorted) {
     dllList.push({
@@ -228,18 +234,19 @@ export async function createPolyfillDllList(): Promise<void> {
       // console.log(`${Name} ${Count}`)
     }
   }
-  /*
+  dllList = await updateWinSdkLib(rootDir, dllList)
   fs.writeFile(
     path.join(rootDir, 'win-polyfill-dll-list.json'),
     JSON.stringify(dllList, null, 2),
   )
-  */
-  console.log(`done ${allFunctions.length}`)
+  console.log(
+    `done createPolyfillDllList moduleCount:${dllList.length} functionCount: ${allFunctions.length}`,
+  )
 }
 
 async function start() {
   await createPolyfillDllList()
-  // await DumpDllExports(rootDir)
+  await DumpDllExports(rootDir)
   // ExtractWinApi(rootDir)
 }
 
