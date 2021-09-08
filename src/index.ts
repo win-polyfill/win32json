@@ -8,6 +8,7 @@ import {
   WinMetaApi,
 } from './WinMetadata'
 import { DumpDllExports } from './DumpDllExports'
+import { ExtractWinApi } from './ExtractWinApi'
 
 const rootDir = path.join(__dirname, '..')
 
@@ -239,6 +240,7 @@ export async function polyfillAll(): Promise<void> {
 async function start() {
   // await polyfillAll()
   await DumpDllExports(rootDir)
+  // ExtractWinApi(rootDir)
 }
 
 start()

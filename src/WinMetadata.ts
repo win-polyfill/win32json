@@ -1,5 +1,11 @@
 // WinMetadata Schema
 
+export const ArchList = ['x86', 'x64', 'arm64', 'arm'] as const
+
+// const ArchList = ['x86']
+
+export type ArchType = typeof ArchList[number]
+
 export interface TypeInfo {
   Kind: string
   Name: string

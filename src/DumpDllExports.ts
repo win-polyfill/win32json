@@ -1,4 +1,5 @@
 import { readJson } from './WinMetaUtil'
+import { ArchList } from './WinMetadata'
 import fs from 'fs/promises'
 import cp from 'child_process'
 import path from 'path'
@@ -59,12 +60,6 @@ export async function DumpDllExtract(
     console.log(`no ${CabPath} and ${DllPath}`)
   }
 }
-
-// const ArchList = ['x86', 'x64', 'arm64', 'arm']
-
-const ArchList = ['x86']
-
-export type ArchType = 'x86' | 'x64' | 'arm64' | 'arm'
 
 export default function spawnAsync(
   commmand: string,
@@ -195,7 +190,10 @@ export async function DumpBinarySdkFiles(
         name: 'Win10Sdk',
         path: Win10SdkDirLib,
         suffix: '.lib',
-        args: ['/ALL', '/RAWDATA:NONE'],
+        // args: ['/ALL', '/RAWDATA:NONE'],
+        // args: ['-linkermember'],
+        // args: ['-ARCHIVEMEMBERS', '-LINKERMEMBER:1', '-EXPORTS'],
+        args: ['-ARCHIVEMEMBERS', '-LINKERMEMBER', '-EXPORTS'],
         dump: {},
       },
     ]
@@ -207,7 +205,10 @@ export async function DumpBinarySdkFiles(
     })
     console.log(`Dumped lib for ${dllImportItem.name}`)
   }
-  const libDumpsPath = path.join(rootDir, `win-polyfill-lib-dumps.json.txt`)
+  const libDumpsPath = path.join(
+    rootDir,
+    `win-polyfill-lib-dumps-full.json.txt`,
+  )
   await fs.writeFile(libDumpsPath, JSON.stringify(dumpList, null, 2))
   console.log(`Dump lib done`)
 }
@@ -216,9 +217,18 @@ export async function DumpBinaryFiles(
   rootDir: string,
   dllImportList: DllImportItem[],
 ): Promise<void> {
-  const dumpList = []
   for (const dllImportItem of dllImportList) {
     const dumpItem: DumpBinaryItem[] = [
+      {
+        name: 'Win10Sdk',
+        path: Win10SdkDirLib,
+        suffix: '.lib',
+        // args: ['/ALL', '/RAWDATA:NONE'],
+        // args: ['-linkermember'],
+        // args: ['-ARCHIVEMEMBERS', '-LINKERMEMBER:1', '-EXPORTS'],
+        args: ['-ARCHIVEMEMBERS', '-LINKERMEMBER:1', '-HEADERS'],
+        dump: {},
+      },
       {
         name: 'Win2000Sp4',
         path: Win2000Sp4DirDll,
@@ -235,16 +245,21 @@ export async function DumpBinaryFiles(
       },
     ]
     await DumpBinaryForItem(dumpItem, dllImportItem)
-    dumpList.push({
+    const dumpInfo = {
       name: dllImportItem.name,
       hasLib: dllImportItem.hasLib,
+      hasDll: dllImportItem.hasDll,
       dump: dumpItem,
-    })
-    console.log(`Dumped dll for ${dllImportItem.name}`)
+    }
+    const dllDumpsPath = path.join(
+      rootDir,
+      'abi',
+      `abi-for-${dllImportItem.name}.json`,
+    )
+    await fs.writeFile(dllDumpsPath, JSON.stringify(dumpInfo, null, 2))
+    console.log(`Dumped modules for ${dllImportItem.name}`)
   }
 
-  const dllDumpsPath = path.join(rootDir, `win-polyfill-dll-dumps.json.txt`)
-  await fs.writeFile(dllDumpsPath, JSON.stringify(dumpList, null, 2))
   console.log(`Dump dll done`)
 }
 
@@ -264,7 +279,7 @@ export async function DumpDllExports(rootDir: string): Promise<void> {
   )
   */
 
-  DumpBinarySdkFiles(rootDir, dllImportList)
+  // DumpBinarySdkFiles(rootDir, dllImportList)
   DumpBinaryFiles(rootDir, dllImportList)
 }
 
@@ -280,7 +295,7 @@ export async function DumpDllExports(rootDir: string): Promise<void> {
 // dumpbin /SYMBOLS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" >C:\work\out-symbols.txt
 // dumpbin /DIRECTIVES "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" >C:\work\out-symbols.txt
 
-// dumpbin /ARCHIVEMEMBERS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" >C:\work\out-symbols.txt
+// dumpbin /HEADERS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" >C:\work\out-symbols.txt
 
 // dumpbin /ARCHIVEMEMBERS "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x86\\kernel32.Lib" >C:\work\out-symbols.txt
 
